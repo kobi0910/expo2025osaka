@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基礎 HTML + CSS 範本</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>網站標題</h1>
+    </header>
+
+    <main id="itinerary">
+        <!-- JavaScript 會動態填充行程內容 -->
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2025 EXPO OSAKA</p>
+        </div>
+    </footer>
+
+    <script>
+        function loadJSON() {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    let content = '';
+
+                    data.forEach(day => {
+                        let pointsHTML = day.points.map(point =>
+                            `<div class="arrow">${point.name}</div>`
+                        ).join("");
+
+                        let sightsHTML = (day.sights || []).map(sight => `
+                            <article class="sight">
+                                <img src="${sight.image}" alt="${sight.name}">
+                                <h3>${sight.name}</h3>
+                                <p>${sight.description}</p>
+                            </article>
+                        `).join("");
+
+                        content += `
+                            <section class="day" id="${day.id}">
+                                <article>
+                                    <h2>${day.title}</h2>
+                                    <div class="arrow-container">
+                                        ${pointsHTML}
+                                    </div>
+                                    <p>${day.description}</p>
+                                </article>
+                                ${sightsHTML}
+                            </section>
+                        `;
+                    });
+
+                    document.getElementById("itinerary").innerHTML = content;
+                })
+                .catch(error => console.error("Error loading JSON:", error));
+        }
+
+        document.addEventListener("DOMContentLoaded", loadJSON);
+    </script>
+
+</body>
+
+</html>

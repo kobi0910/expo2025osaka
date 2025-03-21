@@ -1,0 +1,43 @@
+[
+    {
+        "id": "day1",
+        "title": "TEST",
+        "description": "市區",
+        "points": [
+            {
+                "name": "Point1"
+            },
+            {
+                "name": "Point2"
+            }
+        ],
+        "sights": [
+            {
+                "name": "sights1",
+                "image": "image-url1.jpg",
+                "description": "介紹"
+            },
+            {
+                "name": "sights2",
+                "image": "image-url1.jpg",
+                "description": "介紹"
+            }
+        ]
+    },
+    {
+        "id": "day2",
+        "title": "Title",
+        "description": "市區",
+        "points": [
+            {
+                "name": "Point1"
+            },
+            {
+                "name": "Point2"
+            },
+            {
+                "name": "Point3"
+            }
+        ]
+    }
+]

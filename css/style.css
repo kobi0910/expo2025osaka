@@ -67,7 +67,7 @@ main section article.sight:last-child {
   margin-bottom: 0;
 }
 main section article.sight .sightImg {
-  width: 40%;
+  width: 50%;
   background: center center;
   background-size: cover;
   border-radius: 8px 0 0 8px;
@@ -79,10 +79,24 @@ main section article.sight .content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 3rem;
+  padding: 3rem 3rem 3rem 0;
 }
 main section article.sight .content h3 {
   text-align: right;
+}
+main section article.sight:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+main section article.sight:nth-of-type(odd) .sightImg {
+  border-radius: 0 8px 8px 0;
+  -webkit-clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+main section article.sight:nth-of-type(odd) .content {
+  padding: 3rem 0 3rem 3rem;
+}
+main section article.sight:nth-of-type(odd) .content h3 {
+  text-align: left;
 }
 main section article:not(.sight) > * {
   margin-bottom: 2rem;

@@ -9,7 +9,7 @@ body {
   background: #222;
   font-family: Arial, sans-serif, "微軟正黑體";
   line-height: 1.6;
-  color: wheat;
+  color: white;
 }
 
 a {
@@ -21,7 +21,7 @@ a:hover {
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 8rem;
   line-height: 1em;
 }
 
@@ -44,22 +44,23 @@ header h1 {
 }
 
 main section {
-  padding: 4rem 0;
+  padding: 6rem 0 8rem;
 }
 main section article {
   width: 80%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 6rem;
 }
 main section article h2 {
-  opacity: 0.3;
+  opacity: 1;
+  text-shadow: black 0 0 0.5em;
 }
 main section article.sight {
   display: flex;
-  background: rgba(240, 240, 240, 0.7);
+  background: rgba(240, 240, 240, 0.8);
   color: #222;
-  margin-top: 2rem;
-  -webkit-backdrop-filter: blur(5px);
+  margin-bottom: 4rem;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(5px);
   border-radius: 8px;
 }
@@ -99,7 +100,7 @@ main section article.sight:nth-of-type(odd) .content h3 {
   text-align: left;
 }
 main section article:not(.sight) > * {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 main section article:not(.sight) > *:last-child {
   margin-bottom: 0;
@@ -114,16 +115,40 @@ main section article .date {
 
 /* 每日大背景圖 */
 .day {
-  background: no-repeat center fixed;
+  background: black no-repeat center fixed;
   background-size: cover;
 }
 
 #day1 {
-  background-image: url(https://cdn.iview.abc.net.au/thumbs/1200/zw/ZW4137A001S00_674e7a94c0ad9.jpg);
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5cbf84677046801471893c98/1585040858766-DB7W7AXJ5PVX4H2AZZUI/_KB16023.jpg?format=2500w);
 }
 
 #day2 {
-  background-image: url(https://cms.bbcearth.com/sites/default/files/2023-12/Oceans%20excess%20heat.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/03/19/09/osaka-port-2281899_1280.jpg);
+}
+
+#day3 {
+  background-image: url(https://images.adsttc.com/media/images/66f3/2507/2684/7b6b/efde/c25d/large_jpg/japan-pavilion-at-expo-2025-osaka-designed-by-nikken-sekkei-showcases-the-cycles-of-life_3.jpg?1727210773);
+}
+
+#day4 {
+  background-image: url(https://blooloop.com/wp-content/uploads/2024/12/Netherlands-Pavilion-Osaka-Expo-2025-Copyright-Plomp.jpeg);
+}
+
+#day5 {
+  background-image: url(https://orlandoinformer.com/wp-content/uploads/2024/05/02_SUPER-NINTENDO-WORLD-Birds-Eye-View.jpg);
+}
+
+#day6 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/03/19/09/osaka-port-2281899_1280.jpg);
+}
+
+#day7 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/03/19/09/osaka-port-2281899_1280.jpg);
+}
+
+#day8 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/03/19/09/osaka-port-2281899_1280.jpg);
 }
 
 /* 行程箭頭 */

@@ -1,8 +1,9 @@
 [
     {
         "id": "day1",
-        "title": "TEST",
-        "description": "市區",
+        "date": "day1",
+        "title": "OSAKA",
+        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
             {
                 "name": "Point1"
@@ -14,18 +15,21 @@
         "sights": [
             {
                 "name": "sights1",
-                "image": "image-url1.jpg",
-                "description": "介紹"
+                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
+                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+                "link": "https://www.compuware.com.tw"
             },
             {
                 "name": "sights2",
-                "image": "image-url1.jpg",
-                "description": "介紹"
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
+                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+                "link": "https://www.compuware.com.tw"
             }
         ]
     },
     {
         "id": "day2",
+        "date": "day2",
         "title": "Title",
         "description": "市區",
         "points": [

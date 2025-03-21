@@ -14,7 +14,7 @@
         <h1>網站標題</h1>
     </header>
 
-    <main id="itinerary">
+    <main>
         <!-- JavaScript 會動態填充行程內容 -->
     </main>
 
@@ -38,27 +38,31 @@
 
                         let sightsHTML = (day.sights || []).map(sight => `
                             <article class="sight">
-                                <img src="${sight.image}" alt="${sight.name}">
-                                <h3>${sight.name}</h3>
-                                <p>${sight.description}</p>
+                                <div class="sightImg" style="background-image: url(${sight.image});"></div>
+                                <div class="content">
+                                    <h3>${sight.name}</h3>
+                                    <p>${sight.description}</p>
+                                    <p><a href="${sight.link}" target="_blank">${sight.link}</a></p>
+                                </div>
                             </article>
                         `).join("");
 
                         content += `
                             <section class="day" id="${day.id}">
                                 <article>
+                                    <span class="date">${day.date}</span>
                                     <h2>${day.title}</h2>
                                     <div class="arrow-container">
                                         ${pointsHTML}
                                     </div>
-                                    <p>${day.description}</p>
+                                    <p class="description">${day.description}</p>
                                 </article>
                                 ${sightsHTML}
                             </section>
                         `;
                     });
 
-                    document.getElementById("itinerary").innerHTML = content;
+                    document.querySelector("main").innerHTML = content;
                 })
                 .catch(error => console.error("Error loading JSON:", error));
         }

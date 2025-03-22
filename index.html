@@ -49,15 +49,17 @@
 
                         content += `
                             <section class="day" id="${day.id}">
-                                <article>
-                                    <span class="date">${day.date}</span>
-                                    <h2>${day.title}</h2>
-                                    <div class="arrow-container">
-                                        ${pointsHTML}
-                                    </div>
-                                    <p class="description">${day.description}</p>
-                                </article>
-                                ${sightsHTML}
+                                <div>
+                                    <article>
+                                        <span class="date">${day.date}</span>
+                                        <h2>${day.title}</h2>
+                                        <div class="arrow-container">
+                                            ${pointsHTML}
+                                        </div>
+                                        <p class="description">${day.description}</p>
+                                    </article>
+                                    ${sightsHTML}
+                                </div>
                             </section>
                         `;
                     });

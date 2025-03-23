@@ -1,7 +1,7 @@
 [
     {
         "id": "day1",
-        "date": "day1",
+        "date": "DAY1",
         "title": "大阪市",
         "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
@@ -30,7 +30,7 @@
 
     {
         "id": "day2",
-        "date": "day2",
+        "date": "DAY2",
         "title": "大阪市",
         "description": "",
         "points": [
@@ -62,7 +62,7 @@
 
     {
         "id": "day3",
-        "date": "day3",
+        "date": "DAY3",
         "title": "大阪・関西万博",
         "description": "",
         "points": [
@@ -94,7 +94,7 @@
 
     {
         "id": "day4",
-        "date": "day4",
+        "date": "DAY4",
         "title": "大阪・関西万博",
         "description": "",
         "points": [
@@ -126,7 +126,7 @@
 
     {
         "id": "day5",
-        "date": "day5",
+        "date": "DAY5",
         "title": "大阪環球影城",
         "description": "",
         "points": [
@@ -158,7 +158,7 @@
 
     {
         "id": "day6",
-        "date": "day6",
+        "date": "DAY6",
         "title": "奈良",
         "description": "",
         "points": [
@@ -190,7 +190,7 @@
 
     {
         "id": "day7",
-        "date": "day7",
+        "date": "DAY7",
         "title": "神戶",
         "description": "",
         "points": [
@@ -222,8 +222,8 @@
 
     {
         "id": "day8",
-        "date": "day8",
-        "title": "大阪・関西万博",
+        "date": "DAY8",
+        "title": "大阪",
         "description": "",
         "points": [
             {

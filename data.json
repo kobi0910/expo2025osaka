@@ -14,10 +14,14 @@
         ],
         "sights": [
             {
-                "name": "sights1",
-                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
+                "name": "Nintendo OSAKA",
+                "image": "https://pic.k-cdn.media/2023/04/nintendo-osaka-720x480.jpg",
+                "description": "「Nintendo OSAKA」是任天堂在日本的第二家官方直營店，位於大阪梅田大丸百貨13樓，交通便利。店內販售各式任天堂遊戲主機、軟體及周邊商品，如瑪利歐、薩爾達等，還有許多限定商品。<br>
+
+店內設計充滿趣味，有任天堂角色裝飾，並設有遊戲體驗區，不定期舉辦活動。面積廣達800平方公尺，提供舒適的購物環境。<br>
+
+「Nintendo OSAKA」是任天堂粉絲必訪的朝聖地，即使非粉絲也能感受到歡樂氣氛！",
+                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
                 "name": "sights2",

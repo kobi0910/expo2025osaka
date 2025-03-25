@@ -1,26 +1,25 @@
 [
     {
-        "id": "day1",
-        "date": "DAY1",
-        "title": "大阪市",
-        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+        "image": "https://cdn.pixabay.com/photo/2017/05/03/19/09/osaka-port-2281899_1280.jpg",
+        "title": "Location",
+        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
             {
-                "name": "Point1"
+                "name": "通天閣"
             },
             {
-                "name": "Point2"
+                "name": "道頓堀"
             }
         ],
         "sights": [
             {
-                "name": "Nintendo OSAKA",
+                "name": "通天閣",
                 "image": "https://cdn.pcmarket.com.hk/wp-content/uploads/2022/11/nintendo-osaka.jpg",
-                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！<br>店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！<br>店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
+                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
                 "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
-                "name": "sights2",
+                "name": "道頓堀",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
                 "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
                 "link": "https://www.compuware.com.tw"
@@ -29,8 +28,6 @@
     },
 
     {
-        "id": "day2",
-        "date": "DAY2",
         "title": "大阪市",
         "description": "",
         "points": [
@@ -61,8 +58,6 @@
     },
 
     {
-        "id": "day3",
-        "date": "DAY3",
         "title": "大阪・関西万博",
         "description": "",
         "points": [
@@ -93,8 +88,6 @@
     },
 
     {
-        "id": "day4",
-        "date": "DAY4",
         "title": "大阪・関西万博",
         "description": "",
         "points": [
@@ -125,8 +118,6 @@
     },
 
     {
-        "id": "day5",
-        "date": "DAY5",
         "title": "大阪環球影城",
         "description": "",
         "points": [
@@ -157,8 +148,6 @@
     },
 
     {
-        "id": "day6",
-        "date": "DAY6",
         "title": "奈良",
         "description": "",
         "points": [
@@ -189,8 +178,6 @@
     },
 
     {
-        "id": "day7",
-        "date": "DAY7",
         "title": "神戶",
         "description": "",
         "points": [
@@ -221,8 +208,6 @@
     },
 
     {
-        "id": "day8",
-        "date": "DAY8",
         "title": "大阪",
         "description": "",
         "points": [
@@ -251,5 +236,4 @@
             }
         ]
     }
-
 ]

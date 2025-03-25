@@ -1,7 +1,7 @@
 [
     {
-        "image": "https://cdn.pixabay.com/photo/2017/05/03/19/09/osaka-port-2281899_1280.jpg",
-        "title": "Location",
+        "image": "https://images.unsplash.com/photo-1722191713894-8e8032354fdb?q=80&w=2571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "大阪",
         "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
             {
@@ -14,13 +14,13 @@
         "sights": [
             {
                 "name": "通天閣",
-                "image": "https://cdn.pcmarket.com.hk/wp-content/uploads/2022/11/nintendo-osaka.jpg",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
                 "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
                 "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
                 "name": "道頓堀",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
+                "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
                 "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
                 "link": "https://www.compuware.com.tw"
             }
@@ -54,209 +54,217 @@
     },
 
     {
-        "image": "https://cdn.pixabay.com/photo/2017/05/03/19/09/osaka-port-2281899_1280.jpg",
-        "title": "Location",
+        "image": "https://images.unsplash.com/photo-1722192148003-1afc21d75f4f?q=80&w=2571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "大阪",
         "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
             {
                 "name": "萬博紀念公園"
             },
             {
-                "name": "KITTE"
+                "name": "道頓堀"
             }
         ],
         "sights": [
             {
                 "name": "萬博紀念公園",
-                "image": "https://cdn.pcmarket.com.hk/wp-content/uploads/2022/11/nintendo-osaka.jpg",
+                "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEBXgV3VaUXq_VOn6Hr0_vsS38f6pLbgMbBLrrveugFFSZj8WtCsY-hh_ngyt7phspGDLAQX9UiXymM0vTozev3GQK1hjrTFEcSCwj8ZbKAItYdW40YtgixQ5rkOg2jqqCImJXHzjknpO0lMjiS_uA18VCATKSl0FKUc54pSpVtCSqjPCSDynsmzQR_Q/s1600-rw/%E5%A4%A7%E9%98%AA-%E6%99%AF%E9%BB%9E-%E6%8E%A8%E8%96%A6-%E8%90%AC%E5%8D%9A%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92-Osaka-Expo%E2%80%9970-Commemorative-Park.jpg",
                 "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
                 "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
                 "name": "KITTE",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
                 "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
                 "link": "https://www.compuware.com.tw"
+            }
+        ],
+        "foods": [
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
             }
         ]
     },
 
     {
+        "image": "https://forgemind.net/media/wp-content/uploads/2024/12/o_0043.jpg",
         "title": "大阪・関西万博",
-        "description": "",
+        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
             {
-                "name": "Point1"
+                "name": "通天閣"
             },
             {
-                "name": "Point2"
-            },
-            {
-                "name": "Point3"
+                "name": "道頓堀"
             }
         ],
         "sights": [
             {
-                "name": "sights1",
-                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
+                "name": "通天閣",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
+                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
+                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
-                "name": "sights2",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
+                "name": "道頓堀",
+                "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
                 "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
                 "link": "https://www.compuware.com.tw"
+            }
+        ],
+        "foods": [
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
             }
         ]
     },
 
     {
+        "image": "https://wowlavie-aws.hmgcdn.com/files/article/a2/25538/atl_25538_20250312161116_590.jpg",
         "title": "大阪・関西万博",
-        "description": "",
+        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
             {
-                "name": "Point1"
+                "name": "通天閣"
             },
             {
-                "name": "Point2"
-            },
-            {
-                "name": "Point3"
+                "name": "道頓堀"
             }
         ],
         "sights": [
             {
-                "name": "sights1",
-                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
+                "name": "通天閣",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
+                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
+                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
-                "name": "sights2",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
+                "name": "道頓堀",
+                "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
                 "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
                 "link": "https://www.compuware.com.tw"
+            }
+        ],
+        "foods": [
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
             }
         ]
     },
 
     {
+        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
         "title": "大阪環球影城",
-        "description": "",
+        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
         "points": [
             {
-                "name": "Point1"
+                "name": "通天閣"
             },
             {
-                "name": "Point2"
-            },
-            {
-                "name": "Point3"
+                "name": "道頓堀"
             }
         ],
         "sights": [
             {
-                "name": "sights1",
-                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
+                "name": "通天閣",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
+                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
+                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
+            },
+            {
+                "name": "道頓堀",
+                "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
                 "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
                 "link": "https://www.compuware.com.tw"
-            },
-            {
-                "name": "sights2",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
-            }
-        ]
-    },
-
-    {
-        "title": "奈良",
-        "description": "",
-        "points": [
-            {
-                "name": "Point1"
-            },
-            {
-                "name": "Point2"
-            },
-            {
-                "name": "Point3"
             }
         ],
-        "sights": [
+        "foods": [
             {
-                "name": "sights1",
-                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
             },
             {
-                "name": "sights2",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
-            }
-        ]
-    },
-
-    {
-        "title": "神戶",
-        "description": "",
-        "points": [
-            {
-                "name": "Point1"
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
             },
             {
-                "name": "Point2"
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
             },
             {
-                "name": "Point3"
-            }
-        ],
-        "sights": [
-            {
-                "name": "sights1",
-                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
-            },
-            {
-                "name": "sights2",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
-            }
-        ]
-    },
-
-    {
-        "title": "大阪",
-        "description": "",
-        "points": [
-            {
-                "name": "Point1"
-            },
-            {
-                "name": "Point2"
-            },
-            {
-                "name": "Point3"
-            }
-        ],
-        "sights": [
-            {
-                "name": "sights1",
-                "image": "https://www.inheritage.com.tw/UploadFolder/file/fileUpload/f0544212-5b00-4852-9453-eed1f59a52bf.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
-            },
-            {
-                "name": "sights2",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7czZVZ4sN56x55ZBCobumCyZAAaUz7cGIQ&s",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
-                "link": "https://www.compuware.com.tw"
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
             }
         ]
     }

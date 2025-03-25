@@ -7,7 +7,6 @@
     <title>EXPO 2025 OSAKA</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 
 <body>
@@ -32,48 +31,40 @@
                 .then(data => {
                     let content = '';
 
-                    // 創建多段落 HTML 的通用函數
-                    const createMultiParagraphHTML = (text) => {
-                        return text
-                            ? text.split('\n').map(paragraph =>
-                                `<p class="description">${paragraph.trim()}</p>`
-                            ).join('')
-                            : '';
-                    };
-
                     data.forEach((day, index) => {
+                        // 自動生成 id 和 date
                         const dayNumber = index + 1;
-
-                        const descriptionHTML = createMultiParagraphHTML(day.description);
+                        day.id = `day${dayNumber}`;
+                        day.date = `DAY${dayNumber}`;
 
                         let pointsHTML = day.points.map(point =>
                             `<div class="arrow">${point.name}</div>`
                         ).join("");
 
                         let sightsHTML = (day.sights || []).map(sight => `
-                            <article class="sight">
-                                <div class="sightImg" style="background-image: url(${sight.image});"></div>
-                                <div class="content">
-                                    <h3>${sight.name}</h3>
-                                    ${createMultiParagraphHTML(sight.description)}
-                                    <p><a href="${sight.link}" target="_blank">${sight.link}</a></p>
-                                </div>
-                            </article>
-                        `).join("");
+                    <article class="sight">
+                        <div class="sightImg" style="background-image: url(${sight.image});"></div>
+                        <div class="content">
+                            <h3>${sight.name}</h3>
+                            <p>${sight.description}</p>
+                            <p><a href="${sight.link}" target="_blank">${sight.link}</a></p>
+                        </div>
+                    </article>
+                `).join("");
 
                         content += `
-                            <section class="day" id="day${dayNumber}" style="background-image: url(${day.image});"><div>
-                                <article>
-                                    <span class="date">DAY${dayNumber}</span>
-                                    <h2>${day.title}</h2>
-                                    <div class="arrow-container">
-                                        ${pointsHTML}
-                                    </div>
-                                    ${descriptionHTML}
-                                </article>
-                                ${sightsHTML}
-                            </div></section>
-                        `;
+                    <section class="day" id="${day.id}" style="background-image: url(${day.image});">
+                        <article>
+                            <span class="date">${day.date}</span>
+                            <h2>${day.title}</h2>
+                            <div class="arrow-container">
+                                ${pointsHTML}
+                            </div>
+                            <p class="description">${day.description}</p>
+                        </article>
+                        ${sightsHTML}
+                    </section>
+                `;
                     });
 
                     document.querySelector("main").innerHTML = content;

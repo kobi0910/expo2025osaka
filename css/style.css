@@ -66,10 +66,10 @@ header h1 {
 }
 
 main section {
-  padding-block: 30rem 10rem;
+  padding-block: 20rem;
 }
 main section:first-child {
-  padding-block: 50rem 10rem;
+  padding-block: 50rem 20rem;
 }
 main section > div {
   width: min(95%, 1000px);

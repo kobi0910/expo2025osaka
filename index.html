@@ -79,7 +79,7 @@
                                         <h4>Features</h4>
                                         ${createFeaturesHTML(sight.features)}
                                     </div>
-                                    <p><a href="${sight.link}" target="_blank">${sight.link}</a></p>
+                                    <p class="link"><a href="${sight.link}" target="_blank">相關網站</a></p>
                                 </div>
                             </div>
                         `).join("");
@@ -95,8 +95,8 @@
                         `).join("");
 
                         content += `
-                            <section class="day" id="day${dayNumber}" style="background-image: url(${day.image});"><div>
-
+                            <section class="day" id="day${dayNumber}" style="background-image: url(${day.image});">
+                                <div>
                                 <article class="info">
                                     <span class="date">DAY${dayNumber}</span>
                                     <h2>${day.title}</h2>

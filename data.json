@@ -29,34 +29,22 @@
         ],
         "foods": [
             {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
+                "image": "https://news.walkerplus.com/article/188892/1130816_615.jpg",
+                "name": "八重勝",
                 "type": "串炸",
                 "link": ""
             },
             {
                 "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
+                "name": "新世界 かんかん",
+                "type": "章魚燒",
                 "link": ""
             }
         ]
     },
 
     {
-        "image": "https://images.unsplash.com/photo-1722192148003-1afc21d75f4f?q=80&w=2571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image": "https://images.unsplash.com/photo-1717416696517-cae5e0edf02b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "大阪",
         "description": "搭乘地鐵中央線前往萬博紀念公園，欣賞太陽之塔，感受大自然的魅力。接著前往梅田，在梅田空中庭園展望台欣賞大阪的城市景觀。",
         "points": [
@@ -125,14 +113,14 @@
         ],
         "sights": [
             {
-                "name": "主題館區",
-                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "name": "主題館",
+                "image": "https://static.gltjp.com/glt/data/article/21000/20975/20250318_094429_2a2595bf_w1920.webp",
                 "description": "2025年大阪・關西萬國博覽會的主題館區，是圍繞著「讓生命閃耀光輝的未來社會藍圖」這一核心理念所打造的重點區域。\n主題館區旨在透過各種創新技術和未來社會的構想，探討生命的本質，並展示如何創造一個更加美好、永續的未來社會。",
                 "features": "主題館區由8位頂尖製作人負責，他們將從各自的專業領域出發，打造獨具特色的展館。\n主題館區不僅提供靜態展示，更注重互動體驗。\n一部分區域保留了舊大阪中央郵局的歷史建築。\n主題館區的展示內容較為深入，建議您在參觀前對相關主題有一定的了解。",
                 "link": "https://www.compuware.com.tw"
             },
             {
-                "name": "日本館區",
+                "name": "日本國內館",
                 "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
                 "description": "2025年大阪・關西萬國博覽會的日本館區，是一個展示日本多元文化、尖端科技和未來願景的區域，旨在向世界展示日本獨特的文化魅力和創新實力。",
                 "features": "日本館區將匯集來自日本各地區的展館，展示各地的文化、產業和觀光資源。\n遊客可以透過各種互動裝置和虛擬實境（VR）技術，深入了解日本的文化和科技。\n日本館區的美食和紀念品也值得一試，您可以品嚐到日本各地的特色美食，並購買獨特的紀念品。",
@@ -168,7 +156,7 @@
     },
 
     {
-        "image": "https://wowlavie-aws.hmgcdn.com/files/article/a2/25538/atl_25538_20250312161116_590.jpg",
+        "image": "https://static.gltjp.com/glt/data/article/21000/20975/20250318_094429_2a2595bf_w1920.webp",
         "title": "大阪・関西万博",
         "description": "繼續探索大阪萬博，您可以參觀一些您感興趣的展館，例如藝術展館、美食展館等。晚上可以欣賞萬博的燈光秀和表演。",
         "points": [
@@ -181,7 +169,7 @@
         ],
         "sights": [
             {
-                "name": "國際館區",
+                "name": "國際館",
                 "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
                 "description": "2025年大阪・關西萬國博覽會的國際館區，是各國展現自身文化、科技與未來願景的重要舞台，旨在促進各國之間的文化交流與合作，讓遊客能夠體驗到世界各地的多元文化。",
                 "features": "遊客可以在國際館區體驗到來自世界各地的文化，包括傳統藝術、音樂、舞蹈、美食等。\n許多國家將展示其在尖端科技領域的最新成果，如人工智慧、機器人、再生能源等。\n各國將分享其對未來社會的構想，包括智慧城市、永續發展、全球合作等。\n國際館區將成為各國之間交流與合作的重要平台。",
@@ -308,7 +296,7 @@
     },
 
     {
-        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
+        "image": "https://images.unsplash.com/photo-1481695875655-fada44bb8e75?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "奈良",
         "description": "搭乘近鐵前往奈良，參觀東大寺、春日大社等古蹟，與可愛的奈良鹿互動。",
         "points": [
@@ -378,8 +366,8 @@
     },
 
     {
-        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
-        "title": "神戶",
+        "image": "https://images.unsplash.com/photo-1684245395593-11412c0b250b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "神戸",
         "description": "搭乘JR前往神戶，參觀北野異人館、神戶港等景點，品嚐神戶牛肉等美食。",
         "points": [
             {
@@ -391,7 +379,7 @@
         ],
         "sights": [
             {
-                "name": "神戶港",
+                "name": "神戸港",
                 "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
                 "description": "神戶港位於日本兵庫縣神戶市，是日本重要的國際貿易港口之一，也是一個著名的觀光景點。神戶港於1868年1月1日正式開港，自明治時代起便成為外國人居留的地區，因此擁有濃厚的異國情調。",
                 "features": "美利堅公園是一個美麗的海濱公園，可以欣賞到神戶港塔和神戶海洋博物館等現代建築。\n神戶港塔為神戶港的地標建築，外觀獨特，可以登上觀景台，俯瞰神戶市區和港灣的美景。\n神戶臨海樂園為一個大型的複合式商場，結合了購物、美食和娛樂設施，包括馬賽克花園和摩天輪。",
@@ -441,7 +429,7 @@
     },
 
     {
-        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
+        "image": "https://images.unsplash.com/photo-1582701466892-63be26a13e50?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "臨空城",
         "description": "在大阪市區自由活動，您可以前往心齋橋、難波等地購物或觀光。接著前往臨空城，享受購物的樂趣。晚上前往關西國際機場，搭乘晚上的班機返回。",
         "points": [

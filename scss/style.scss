@@ -68,11 +68,9 @@ header {
 }
 
 main section {
-    padding-block: 20rem;
-
-    &:first-child {
-        padding-block: 80vh 20rem;
-    }
+    display: flex;
+    flex-direction: column;
+    padding-block: 40rem 20rem;
 
     &>div {
         width: min(95%, 1000px);
@@ -115,30 +113,39 @@ main section {
 .sight {
     &>div {
         display: flex;
-        background: rgba(255, 255, 255, 0.8);
+        background: rgba(255, 255, 255, 1);
         color: #222;
         backdrop-filter: blur(5px);
         border-radius: 8px;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
 
         .sightImg {
-            width: 50%;
+            width: 35%;
             background: center center;
             background-size: cover;
             border-radius: 8px 0 0 8px;
-            clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+            /*clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);*/
         }
 
         .content {
             flex: 1;
             display: flex;
             flex-direction: column;
-            gap: 1rem;
-            padding: 2rem 2rem 2rem 0;
+            gap: 1.5rem;
+            padding: 2rem;
 
             h3 {
                 text-align: right;
-                margin-bottom: 1rem;
+            }
+
+            .link {
+                display: flex;
+
+                a {
+                    display: block;
+                    padding: .5rem 3rem;
+                    border: 1px solid #fff;
+                }
             }
 
             .feature {
@@ -162,18 +169,13 @@ main section {
                     }
 
                     /* 第一個顏色（紅色） */
-                    &:nth-child(3n+1)::before {
-                        color: rgb(164, 179, 36);
+                    &:nth-child(2n+1)::before {
+                        color: rgb(255, 136, 39);
                     }
 
                     /* 第二個顏色（黃色） */
-                    &:nth-child(3n+2)::before {
-                        color: rgb(255, 101, 134);
-                    }
-
-                    /* 第三個顏色（綠色） */
-                    &:nth-child(3n+3)::before {
-                        color: rgb(255, 136, 24);
+                    &:nth-child(2n+2)::before {
+                        color: rgb(255, 57, 123);
                     }
                 }
             }
@@ -184,11 +186,10 @@ main section {
 
             .sightImg {
                 border-radius: 0 8px 8px 0;
-                clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%)
+                /*clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);*/
             }
 
             .content {
-                padding: 2rem 0 2rem 2rem;
 
                 h3 {
                     text-align: left;
@@ -313,6 +314,16 @@ footer {
     position: sticky;
     bottom: 0;
     width: 100%;
+}
+
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 

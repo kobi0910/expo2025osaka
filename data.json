@@ -2,7 +2,7 @@
     {
         "image": "https://images.unsplash.com/photo-1722191713894-8e8032354fdb?q=80&w=2571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "大阪",
-        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+        "description": "抵達關西國際機場後，前往弁天町的JING YU辦理入住。\n接著搭乘JR大阪環狀線前往新世界，漫步在充滿昭和復古風情的街道，品嚐道地的串炸。\n晚上前往道頓堀，品嚐章魚燒、大阪燒等美食，感受大阪熱鬧的夜生活！",
         "points": [
             {
                 "name": "通天閣"
@@ -15,13 +15,15 @@
             {
                 "name": "通天閣",
                 "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
-                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
+                "description": "通天閣，這座「直通天空的高聳建築物」，靜靜地佇立在大阪新世界的中心，不僅是大阪的代表性地標，更像是一位時光旅者，見證著這座城市的過去與現在。它不僅是鋼鐵構築的塔，更是一部活生生的歷史，記錄著大阪的興衰與變遷。",
+                "features": "第一代通天閣誕生於1912年，是當時亞洲最高的建築物。\n來到通天閣，絕對不能錯過「比利肯先生」，據說摸摸他的腳底，就能帶來好運。\n通天閣於近年新增了「TOWER SLIDER」溜滑梯，遊客可以從高處以螺旋狀的方式快速滑到地面，為遊客帶來刺激的體驗。",
                 "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
                 "name": "道頓堀",
                 "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+                "description": "道頓堀，大阪最熱鬧的區域之一，也是大阪美食和娛樂的中心。這裡充滿了活力和熱情，是體驗大阪夜生活的絕佳去處。",
+                "features": "道頓堀最著名的地標之一，巨大的固力果跑跑人霓虹招牌，是大阪的象徵。\n道頓堀是大阪美食的代表，有許多著名的餐廳和小吃攤，例如章魚燒、大阪燒、拉麵等。\n道頓堀川還有遊船活動，讓您可以從不同的角度欣賞道頓堀的美景。",
                 "link": "https://www.compuware.com.tw"
             }
         ],
@@ -56,26 +58,28 @@
     {
         "image": "https://images.unsplash.com/photo-1722192148003-1afc21d75f4f?q=80&w=2571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "大阪",
-        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+        "description": "搭乘地鐵中央線前往萬博紀念公園，欣賞太陽之塔，感受大自然的魅力。接著前往梅田，在梅田空中庭園展望台欣賞大阪的城市景觀。",
         "points": [
             {
                 "name": "萬博紀念公園"
             },
             {
-                "name": "道頓堀"
+                "name": "KITTE"
             }
         ],
         "sights": [
             {
                 "name": "萬博紀念公園",
                 "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEBXgV3VaUXq_VOn6Hr0_vsS38f6pLbgMbBLrrveugFFSZj8WtCsY-hh_ngyt7phspGDLAQX9UiXymM0vTozev3GQK1hjrTFEcSCwj8ZbKAItYdW40YtgixQ5rkOg2jqqCImJXHzjknpO0lMjiS_uA18VCATKSl0FKUc54pSpVtCSqjPCSDynsmzQR_Q/s1600-rw/%E5%A4%A7%E9%98%AA-%E6%99%AF%E9%BB%9E-%E6%8E%A8%E8%96%A6-%E8%90%AC%E5%8D%9A%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92-Osaka-Expo%E2%80%9970-Commemorative-Park.jpg",
-                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
+                "description": "萬博紀念公園，是位於日本大阪府吹田市的大型公園，為了紀念1970年舉辦的日本萬國博覽會而建造。這座公園不僅保留了世博會的代表性建築「太陽之塔」，也成為大阪市民休閒放鬆的重要場所。",
+                "features": "太陽之塔由藝術家岡本太郎設計，是公園的標誌性建築。\n公園內有日本庭園、自然文化園、運動設施、文化設施等多種設施，滿足不同遊客的需求。\nExpocity購物商場，裡面有許多餐廳及購物商店，還有日本最高的摩天輪。",
                 "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
                 "name": "KITTE",
                 "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "KITTE大阪以「UNKNOWN（未知）」為概念，旨在讓遊客重新認識和發現日本的魅力。\n您可以在這裡找到來自北海道到沖繩的各種地方特色商品和伴手禮。\n一部分區域保留了舊大阪中央郵局的歷史建築。\n在KITTE大阪的屋頂花園，欣賞大阪的城市景觀。",
                 "link": "https://www.compuware.com.tw"
             }
         ],
@@ -110,7 +114,7 @@
     {
         "image": "https://forgemind.net/media/wp-content/uploads/2024/12/o_0043.jpg",
         "title": "大阪・関西万博",
-        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+        "description": "全天沉浸在大阪萬博的盛會中，建議您提前規劃參觀路線，並預訂熱門展覽的門票。\n您可以先參觀主展館，了解萬博的主題和理念。下午可以參觀一些特色展館，例如科技展館、文化展館等。",
         "points": [
             {
                 "name": "通天閣"
@@ -121,15 +125,17 @@
         ],
         "sights": [
             {
-                "name": "通天閣",
-                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
-                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
-                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
+                "name": "主題館區",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "2025年大阪・關西萬國博覽會的主題館區，是圍繞著「讓生命閃耀光輝的未來社會藍圖」這一核心理念所打造的重點區域。\n主題館區旨在透過各種創新技術和未來社會的構想，探討生命的本質，並展示如何創造一個更加美好、永續的未來社會。",
+                "features": "主題館區由8位頂尖製作人負責，他們將從各自的專業領域出發，打造獨具特色的展館。\n主題館區不僅提供靜態展示，更注重互動體驗。\n一部分區域保留了舊大阪中央郵局的歷史建築。\n主題館區的展示內容較為深入，建議您在參觀前對相關主題有一定的了解。",
+                "link": "https://www.compuware.com.tw"
             },
             {
-                "name": "道頓堀",
-                "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+                "name": "日本館區",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "2025年大阪・關西萬國博覽會的日本館區，是一個展示日本多元文化、尖端科技和未來願景的區域，旨在向世界展示日本獨特的文化魅力和創新實力。",
+                "features": "日本館區將匯集來自日本各地區的展館，展示各地的文化、產業和觀光資源。\n遊客可以透過各種互動裝置和虛擬實境（VR）技術，深入了解日本的文化和科技。\n日本館區的美食和紀念品也值得一試，您可以品嚐到日本各地的特色美食，並購買獨特的紀念品。",
                 "link": "https://www.compuware.com.tw"
             }
         ],
@@ -164,7 +170,7 @@
     {
         "image": "https://wowlavie-aws.hmgcdn.com/files/article/a2/25538/atl_25538_20250312161116_590.jpg",
         "title": "大阪・関西万博",
-        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+        "description": "繼續探索大阪萬博，您可以參觀一些您感興趣的展館，例如藝術展館、美食展館等。晚上可以欣賞萬博的燈光秀和表演。",
         "points": [
             {
                 "name": "通天閣"
@@ -175,15 +181,17 @@
         ],
         "sights": [
             {
-                "name": "通天閣",
-                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
-                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
-                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
+                "name": "國際館區",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "2025年大阪・關西萬國博覽會的國際館區，是各國展現自身文化、科技與未來願景的重要舞台，旨在促進各國之間的文化交流與合作，讓遊客能夠體驗到世界各地的多元文化。",
+                "features": "遊客可以在國際館區體驗到來自世界各地的文化，包括傳統藝術、音樂、舞蹈、美食等。\n許多國家將展示其在尖端科技領域的最新成果，如人工智慧、機器人、再生能源等。\n各國將分享其對未來社會的構想，包括智慧城市、永續發展、全球合作等。\n國際館區將成為各國之間交流與合作的重要平台。",
+                "link": "https://www.compuware.com.tw"
             },
             {
-                "name": "道頓堀",
-                "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+                "name": "未來社會展示區",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "2025年大阪・關西萬國博覽會的未來社會展示區，是一個充滿創新與前瞻性的區域，旨在向世界展示未來社會的各種可能性。",
+                "features": "此區域將展示各種先進技術和未來生活方式，並探討如何運用這些技術解決全球共同面臨的挑戰。\n此區域將展示未來城市、未來住宅、未來交通等各種未來生活場景。\n運用AR和VR技術，並搭載5G網速，讓無法親臨現場的人也能體驗未來世界的氛圍。",
                 "link": "https://www.compuware.com.tw"
             }
         ],
@@ -218,7 +226,7 @@
     {
         "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
         "title": "大阪環球影城",
-        "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025.\nThe event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+        "description": "前往大阪環球影城，盡情享受各種刺激的遊樂設施和精彩的表演。",
         "points": [
             {
                 "name": "通天閣"
@@ -229,15 +237,227 @@
         ],
         "sights": [
             {
-                "name": "通天閣",
+                "name": "超級任天堂世界",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「瑪利歐賽車～庫巴的挑戰書～」：以瑪利歐賽車為主題的互動式遊樂設施，結合了AR技術，讓您身歷其境。\n「咚奇剛的瘋狂礦車™」：2024年新開幕的雲霄飛車，刺激感十足。\n「耀西冒險」：適合全家大小的乘坐型遊樂設施，在耀西的背上欣賞蘑菇王國的風景。",
+                "link": "https://www.compuware.com.tw"
+            },
+            {
+                "name": "哈利波特魔法世界",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「哈利波特禁忌之旅™」：結合了4K3D和體感技術的遊樂設施，帶您進入哈利波特的魔法世界。\n「鷹馬的飛行™」：適合全家大小的雲霄飛車，可以欣賞霍格華茲城堡和活米村的風景。",
+                "link": "https://www.compuware.com.tw"
+            },
+            {
+                "name": "小小兵樂園",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「小小兵瘋狂乘車遊」：以小小兵為主題的4K3D遊樂設施，和小小兵們一起展開瘋狂的冒險。",
+                "link": "https://www.compuware.com.tw"
+            },
+            {
+                "name": "侏儸紀公園",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「「飛天翼龍」：刺激的飛行式雲霄飛車，讓您像翼龍一樣在空中翱翔。\n「侏儸紀公園-乘船遊」：乘坐遊船，在侏儸紀公園中探險，小心恐龍出沒！",
+                "link": "https://www.compuware.com.tw"
+            },
+            {
+                "name": "好萊塢區",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「好萊塢美夢-乘車遊」：刺激的雲霄飛車，您可以選擇自己喜歡的音樂，享受速度與激情的快感。\n「好萊塢美夢-乘車遊-逆轉世界」：以背向行駛的雲霄飛車。",
+                "link": "https://www.compuware.com.tw"
+            },
+            {
+                "name": "其他設施",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "",
+                "features": "「大白鯊」：乘坐遊船，在平靜的小鎮上遭遇大白鯊的襲擊。\n「水世界」：精彩的水上表演，重現電影《水世界》中的場景。",
+                "link": "https://www.compuware.com.tw"
+            }
+        ],
+        "foods": [
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            }
+        ]
+    },
+
+    {
+        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
+        "title": "奈良",
+        "description": "搭乘近鐵前往奈良，參觀東大寺、春日大社等古蹟，與可愛的奈良鹿互動。",
+        "points": [
+            {
+                "name": "通天閣"
+            },
+            {
+                "name": "道頓堀"
+            }
+        ],
+        "sights": [
+            {
+                "name": "奈良公園",
                 "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
-                "description": "「Nintendo OSAKA」是任天堂官方直營店，位在大阪梅田大丸百貨13樓，交通超便利！\n店內以任天堂經典角色為主題，有遊戲主機、軟體和超多可愛周邊商品，還有大阪店限定款！\n店內設有遊戲體驗區，讓玩家試玩最新遊戲，就算不是粉絲也能玩得開心！來大阪玩，一定要來「Nintendo OSAKA」逛逛！",
+                "description": "奈良公園位於日本奈良縣奈良市，是一座佔地廣闊、自然與文化完美融合的都市公園。這裡不僅有美麗的自然景觀，還擁有眾多歷史悠久的寺廟和神社，以及成群可愛的野生鹿群，使其成為日本國內外遊客必訪的熱門景點。",
+                "features": "奈良公園最著名的就是生活在這裡的野生鹿群。這些鹿被視為神的使者，受到當地居民的保護。\n遊客可以在公園內購買鹿仙貝，親手餵食這些溫馴可愛的鹿，與牠們近距離互動。\n公園內散佈著許多重要的文化遺產，這些古老的寺廟和神社，不僅是重要的文化財產，也是了解日本歷史和文化的窗口。",
                 "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
             },
             {
-                "name": "道頓堀",
-                "image": "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/j1smivyxq16fd25ks3mw.jpg",
-                "description": "The 2025 Osaka Expo, officially known as Expo 2025, will be held in Osaka, Japan, from April 13 to October 13, 2025. The event will take place on Yumeshima Island, a man-made island in Osaka Bay.",
+                "name": "東大寺",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
+                "description": "東大寺，位於日本奈良縣奈良市雜司町，是日本佛教華嚴宗大本山、南都七大寺之一，1998年作為「古都奈良的文化財」的一部分被列為世界文化遺產，是到奈良旅行時，絕不能錯過的景點。",
+                "features": "東大寺由信奉佛教的聖武天皇興建於728年，因為建在首都平城京以東而得名。\n東大寺大佛殿正面寬度57公尺，深50公尺，為世界最大的木造建築。(即將被大阪萬博「大屋根」超越。)\n每天都會進行的「十一面護摩祈禱」儀式，也是不容錯過的活動。\n南大門是東大寺的正門，巨大的木造結構和金剛力士像令人震撼。\n二月堂位於東大寺後山，可以俯瞰奈良市區的美景。",
+                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
+            },
+            {
+                "name": "春日大社",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
+                "description": "春日大社位於日本奈良縣奈良市奈良公園內，是一座歷史悠久且擁有豐富文化底蘊的神社。",
+                "features": "春日大社建於和銅二年（710年），是為了守護平城京而建立的神社。\n春日大社作為「古都奈良的文化財」的一部分，被列入聯合國教科文組織的世界文化遺產。\n春日大社以數量眾多的石燈籠和吊燈籠而聞名，是神社的一大特色。\n奈良的鹿被視為神的使者，與春日大社有著密切的關係。\n萬葉植物園種植著《萬葉集》中提到的植物，是欣賞自然風光的好去處。",
+                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
+            },
+            {
+                "name": "奈良町",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
+                "description": "",
+                "features": "奈良町的歷史可以追溯到平城京時代，江戶時代成為重要的商業都市，至今保留了許多江戶時代的町屋建築，成為感受歷史氛圍的熱門景點。\n許多町屋被改造成為博物館、咖啡館、商店等，讓遊客可以一邊感受歷史氛圍，一邊享受現代化的便利。\n在巷弄間穿梭，可以發現許多隱藏的驚喜，如傳統工藝品店、特色咖啡館、日式甜點店等。\n奈良町資料館展示了奈良町的歷史和文化，讓遊客可以更深入地了解這個區域的過去。\n格子之家是一座保留江戶時代風格的町屋建築，展示了當時的生活樣貌。",
+                "link": "https://metronine.osaka/tw/spot-details/?spot_id=16800749841787"
+            }
+        ],
+        "foods": [
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            }
+        ]
+    },
+
+    {
+        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
+        "title": "神戶",
+        "description": "搭乘JR前往神戶，參觀北野異人館、神戶港等景點，品嚐神戶牛肉等美食。",
+        "points": [
+            {
+                "name": "通天閣"
+            },
+            {
+                "name": "道頓堀"
+            }
+        ],
+        "sights": [
+            {
+                "name": "神戶港",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "神戶港位於日本兵庫縣神戶市，是日本重要的國際貿易港口之一，也是一個著名的觀光景點。神戶港於1868年1月1日正式開港，自明治時代起便成為外國人居留的地區，因此擁有濃厚的異國情調。",
+                "features": "美利堅公園是一個美麗的海濱公園，可以欣賞到神戶港塔和神戶海洋博物館等現代建築。\n神戶港塔為神戶港的地標建築，外觀獨特，可以登上觀景台，俯瞰神戶市區和港灣的美景。\n神戶臨海樂園為一個大型的複合式商場，結合了購物、美食和娛樂設施，包括馬賽克花園和摩天輪。",
+                "link": "https://www.compuware.com.tw"
+            },
+            {
+                "name": "北野異人館街",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "北野異人館街，是位於日本神戶市北野町一帶的歷史街區，以其保存完好的明治和大正時期的西洋風格建築而聞名。神戶港於1868年開港，吸引了許多外國人前來定居，北野町因其優越的地理位置和美麗的風景，成為外國人的主要居住區。",
+                "features": "這些外國人建造了許多具有歐洲風格的住宅，這些住宅被稱為「異人館」。\n部分異人館已改建為博物館或開放參觀，遊客可以了解當時外國人在神戶的生活和文化。\n風見雞館：德國商人的住宅，以屋頂上的風見雞而聞名，是北野異人館街的代表性建築。\n萌黃之館：美國總領事的住宅，以其淡綠色的外牆而聞名，是北野異人館街的另一代表性建築。\n魚鱗之家：外部有魚鱗狀的建築，也是非常具有特色的異人館。",
+                "link": "https://www.compuware.com.tw"
+            },
+            {
+                "name": "六甲山",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "六甲山是位於日本兵庫縣神戶市的一座山脈，以其美麗的自然風光和豐富的休閒設施而聞名。",
+                "features": "六甲山花園露台的夜景被譽為「百萬美元的夜景」，是日本三大夜景之一。\n六甲高山植物園種植了約1500種高山植物，一年四季都有不同的花卉盛開。\n可以搭乘纜車上山，欣賞美麗的花園和神戶市區的景色。",
+                "link": "https://www.compuware.com.tw"
+            }
+        ],
+        "foods": [
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            },
+            {
+                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
+                "name": "串かつ 八重勝",
+                "type": "串炸",
+                "link": ""
+            }
+        ]
+    },
+
+    {
+        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
+        "title": "臨空城",
+        "description": "在大阪市區自由活動，您可以前往心齋橋、難波等地購物或觀光。接著前往臨空城，享受購物的樂趣。晚上前往關西國際機場，搭乘晚上的班機返回。",
+        "points": [
+            {
+                "name": "通天閣"
+            },
+            {
+                "name": "道頓堀"
+            }
+        ],
+        "sights": [
+            {
+                "name": "臨空城",
+                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
+                "description": "臨空城（Rinku Town）位於日本大阪府泉佐野市，緊鄰關西國際機場，是一個集購物、美食、娛樂和住宿於一體的綜合性區域。",
+                "features": "臨空城與關西國際機場僅一站之隔，搭乘JR關西機場線或南海電鐵即可輕鬆抵達。\n臨空城Premium Outlets：一個大型的暢貨中心，匯集了眾多國際知名品牌，提供優惠的折扣商品。\n摩天輪是臨空城的標誌性景觀之一，可以欣賞到大阪灣的美麗夜景。",
                 "link": "https://www.compuware.com.tw"
             }
         ],

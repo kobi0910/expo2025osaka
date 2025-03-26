@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Kiwi Maru', Arial, Helvetica, sans-serif;
+    font-family: 'Kiwi Maru';
     font-weight: normal;
 }
 
@@ -58,7 +58,7 @@ header {
 
     h1 {
         font-size: 2rem;
-        font-family: 'Shippori Mincho';
+        font-family: 'Rajdhani';
         font-weight: normal;
         width: min(95%, 1000px);
         margin-inline: auto;
@@ -70,7 +70,7 @@ main section {
     padding-block: 20rem;
 
     &:first-child {
-        padding-block: 50rem 20rem;
+        padding-block: 80vh 20rem;
     }
 
     &>div {
@@ -136,6 +136,35 @@ main section {
                     h3 {
                         text-align: right;
                         margin-bottom: 1rem;
+                    }
+
+                    .feature {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1rem;
+                        border: 1px solid #8eb0d4;
+                        padding: 1rem;
+
+                        h4 {
+                            font-family: 'Rajdhani';
+                            font-weight: bold;
+                        }
+
+                        p {
+                            display: flex;
+
+                            &::before {
+                                content: "✦";
+                                margin-right: .4rem;
+                                color: #ff6600;
+                            }
+
+                            &:nth-child(odd) {
+                                &::before {
+                                    color: #ff9900;
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -310,14 +339,18 @@ footer {
     }
 
     main section {
-        padding: 2rem 0;
+        padding-block: 4rem;
+
+        &:first-child {
+            padding-block: 4rem;
+        }
 
         &>div {
             padding: 2rem 1rem;
         }
 
         article {
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
 
             &.info>* {
                 margin-bottom: 2rem;
@@ -342,10 +375,11 @@ footer {
                 }
 
                 .content {
-                    padding: 1rem;
+                    padding: 1.5rem 1rem 1rem;
 
                     h3 {
                         text-align: left;
+                        margin-bottom: 0;
                     }
                 }
             }

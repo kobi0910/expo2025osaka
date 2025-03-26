@@ -67,10 +67,9 @@ header h1 {
 }
 
 main section {
-  padding-block: 20rem;
-}
-main section:first-child {
-  padding-block: 80vh 20rem;
+  display: flex;
+  flex-direction: column;
+  padding-block: 40rem 20rem;
 }
 main section > div {
   width: min(95%, 1000px);
@@ -105,31 +104,37 @@ main section article:last-child {
 
 .sight > div {
   display: flex;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgb(255, 255, 255);
   color: #222;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   border-radius: 8px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .sight > div .sightImg {
-  width: 50%;
+  width: 35%;
   background: center center;
   background-size: cover;
   border-radius: 8px 0 0 8px;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  /*clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);*/
 }
 .sight > div .content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 2rem 2rem 2rem 0;
+  gap: 1.5rem;
+  padding: 2rem;
 }
 .sight > div .content h3 {
   text-align: right;
-  margin-bottom: 1rem;
+}
+.sight > div .content .link {
+  display: flex;
+}
+.sight > div .content .link a {
+  display: block;
+  padding: 0.5rem 3rem;
+  border: 1px solid #fff;
 }
 .sight > div .content .feature {
   display: flex;
@@ -146,31 +151,23 @@ main section article:last-child {
   display: flex;
   /* 第一個顏色（紅色） */
   /* 第二個顏色（黃色） */
-  /* 第三個顏色（綠色） */
 }
 .sight > div .content .feature p::before {
   content: "✦";
   margin-right: 0.4rem;
 }
-.sight > div .content .feature p:nth-child(3n+1)::before {
-  color: rgb(164, 179, 36);
+.sight > div .content .feature p:nth-child(2n+1)::before {
+  color: rgb(255, 136, 39);
 }
-.sight > div .content .feature p:nth-child(3n+2)::before {
-  color: rgb(255, 101, 134);
-}
-.sight > div .content .feature p:nth-child(3n+3)::before {
-  color: rgb(255, 136, 24);
+.sight > div .content .feature p:nth-child(2n+2)::before {
+  color: rgb(255, 57, 123);
 }
 .sight > div:nth-of-type(odd) {
   flex-direction: row-reverse;
 }
 .sight > div:nth-of-type(odd) .sightImg {
   border-radius: 0 8px 8px 0;
-  -webkit-clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
-.sight > div:nth-of-type(odd) .content {
-  padding: 2rem 0 2rem 2rem;
+  /*clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);*/
 }
 .sight > div:nth-of-type(odd) .content h3 {
   text-align: left;
@@ -278,6 +275,10 @@ footer {
   position: sticky;
   bottom: 0;
   width: 100%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 @media screen and (max-width: 992px) {

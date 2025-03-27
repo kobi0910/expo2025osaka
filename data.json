@@ -2,7 +2,7 @@
     {
         "image": "https://images.unsplash.com/photo-1722191713894-8e8032354fdb?q=80&w=2571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "大阪",
-        "description": "抵達關西國際機場後，前往弁天町的JING YU辦理入住。\n接著搭乘JR大阪環狀線前往新世界，漫步在充滿昭和復古風情的街道，品嚐道地的串炸。\n晚上前往道頓堀，品嚐章魚燒、大阪燒等美食，感受大阪熱鬧的夜生活！",
+        "description": "清晨抵達關西機場，搭乘電車前往弁天町放置行李，正式展開大阪冒險！\n第一站前往新世界，漫步復古昭和風街道，登上通天閣俯瞰城市風光。接著移動到熱鬧的道頓堀和心齋橋商店街，感受霓虹閃爍的繁華魅力。最後，登上 HARUKAS 300 展望台，從日本最高大樓俯瞰大阪夜景，為首日畫下浪漫句點！",
         "points": [
             {
                 "name": "通天閣"
@@ -12,6 +12,13 @@
             }
         ],
         "sights": [
+            {
+                "name": "新世界",
+                "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
+                "description": "新世界是大阪最具昭和風情的街區，融合懷舊與庶民文化，讓人彷彿穿越至過去的日本。這裡有象徵性的通天閣、美食雲集的串炸店，還能感受濃厚的大阪在地氛圍，是旅人不可錯過的打卡勝地！",
+                "features": "通天閣：新世界的地標，高 103 公尺的瞭望塔，可俯瞰大阪市區美景，還有比利肯神像等著摸腳求好運！\n庶民美食天堂：滿街的串炸店與居酒屋，特製醬汁搭配酥脆炸物，讓人一吃就愛上！\n懷舊街景：充滿霓虹燈與復古看板，仿照 20 世紀法國蒙馬特區設計，彷彿置身昭和時代。\n",
+                "link": "https://www.tsutenkaku.co.jp/"
+            },
             {
                 "name": "通天閣",
                 "image": "https://i0.wp.com/travo.guide/wp-content/uploads/2019/07/%E9%80%9A%E5%A4%A9%E9%96%A3%E6%96%B0%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97%E8%A1%97.jpg?fit=1600%2C900&ssl=1",
@@ -46,7 +53,7 @@
     {
         "image": "https://images.unsplash.com/photo-1717416696517-cae5e0edf02b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "大阪",
-        "description": "搭乘地鐵中央線前往萬博紀念公園，欣賞太陽之塔，感受大自然的魅力。接著前往梅田，在梅田空中庭園展望台欣賞大阪的城市景觀。",
+        "description": "今日悠閒探索萬博紀念公園，欣賞象徵性的「太陽之塔」，感受壯闊的大自然。午餐後前往大阪站周邊，探訪 KITTE、大丸、Grand Green Osaka 等熱門商場，順道朝聖 NINTENDO OSAKA，體驗滿滿遊戲氛圍，購買獨家周邊商品。",
         "points": [
             {
                 "name": "萬博紀念公園"
@@ -72,37 +79,13 @@
             }
         ],
         "foods": [
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            }
         ]
     },
 
     {
         "image": "https://forgemind.net/media/wp-content/uploads/2024/12/o_0043.jpg",
         "title": "大阪・関西万博",
-        "description": "全天沉浸在大阪萬博的盛會中，建議您提前規劃參觀路線，並預訂熱門展覽的門票。\n您可以先參觀主展館，了解萬博的主題和理念。下午可以參觀一些特色展館，例如科技展館、文化展館等。",
+        "description": "萬眾矚目的 2025 大阪關西萬博正式展開！今日重點參觀主題館與日本國內館，深入了解萬博理念與未來科技。建議提前預約熱門展館，沉浸式體驗日本的創新科技與文化魅力，從未來都市到環境永續，一次看個夠！",
         "points": [
             {
                 "name": "通天閣"
@@ -128,37 +111,13 @@
             }
         ],
         "foods": [
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            }
         ]
     },
 
     {
         "image": "https://static.gltjp.com/glt/data/article/21000/20975/20250318_094429_2a2595bf_w1920.webp",
         "title": "大阪・関西万博",
-        "description": "繼續探索大阪萬博，您可以參觀一些您感興趣的展館，例如藝術展館、美食展館等。晚上可以欣賞萬博的燈光秀和表演。",
+        "description": "繼續萬博探險，這次將目光放在國際館，走訪世界各國的特色展館，感受不同文化的獨特魅力。還有美食展區，品嚐世界各地的創意料理，晚上則欣賞萬博限定的燈光秀，為這場全球盛事畫下完美句點。",
         "points": [
             {
                 "name": "通天閣"
@@ -184,37 +143,13 @@
             }
         ],
         "foods": [
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            }
         ]
     },
 
     {
         "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
         "title": "大阪環球影城",
-        "description": "前往大阪環球影城，盡情享受各種刺激的遊樂設施和精彩的表演。",
+        "description": "今天是玩樂日！直奔大阪環球影城，先攻佔話題度超高的「超級任天堂世界」，挑戰瑪利歐賽車～庫巴的挑戰書～與咚奇剛的瘋狂礦車，接著闖入魔法世界，體驗哈利波特禁忌之旅，感受魁地奇的刺激快感。午後挑戰極速飛天翼龍，最後來場小小兵瘋狂乘車遊，笑聲滿載！",
         "points": [
             {
                 "name": "通天閣"
@@ -268,37 +203,13 @@
             }
         ],
         "foods": [
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            }
         ]
     },
 
     {
         "image": "https://images.unsplash.com/photo-1481695875655-fada44bb8e75?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "奈良",
-        "description": "搭乘近鐵前往奈良，參觀東大寺、春日大社等古蹟，與可愛的奈良鹿互動。",
+        "description": "今日來場歷史與自然交織的悠閒旅程，搭乘近鐵前往奈良，參拜世界遺產東大寺，仰望巨大佛像的莊嚴氣勢，再前往春日大社，在千年古木與石燈籠間散步。最重要的，與奈良公園的溫馴小鹿互動，留下滿滿可愛回憶！",
         "points": [
             {
                 "name": "通天閣"
@@ -338,37 +249,13 @@
             }
         ],
         "foods": [
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            }
         ]
     },
 
     {
         "image": "https://images.unsplash.com/photo-1684245395593-11412c0b250b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "神戸",
-        "description": "搭乘JR前往神戶，參觀北野異人館、神戶港等景點，品嚐神戶牛肉等美食。",
+        "description": "搭乘 JR 前往港都神戶，走訪充滿異國風情的北野異人館區，感受歐風建築之美。午後來到神戶港，欣賞摩天輪與海港風光，最後大啖傳說中的神戶牛肉，品嚐入口即化的極致美味。",
         "points": [
             {
                 "name": "通天閣"
@@ -401,37 +288,13 @@
             }
         ],
         "foods": [
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            }
         ]
     },
 
     {
         "image": "https://images.unsplash.com/photo-1582701466892-63be26a13e50?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "title": "臨空城",
-        "description": "在大阪市區自由活動，您可以前往心齋橋、難波等地購物或觀光。接著前往臨空城，享受購物的樂趣。晚上前往關西國際機場，搭乘晚上的班機返回。",
+        "description": "旅程的最後一天，彈性安排市區觀光與購物行程，可以悠哉漫步心齋橋、難波等地，或前往臨空城挖寶折扣精品。晚上帶著滿滿回憶前往關西機場，結束這趟精彩的大阪八日行！",
         "points": [
             {
                 "name": "通天閣"
@@ -450,30 +313,6 @@
             }
         ],
         "foods": [
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            },
-            {
-                "image": "https://tw.japan-travel-note.com/_astro/01.2RkrbgFo_1RCses.webp",
-                "name": "串かつ 八重勝",
-                "type": "串炸",
-                "link": ""
-            }
         ]
     }
 ]

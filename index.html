@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kiwi Maru">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rajdhani">
+
+    <!--Adobe Font-->
     <script>
         (function (d) {
             var config = {
@@ -19,6 +21,7 @@
                 h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
+
 </head>
 
 <body>
@@ -36,6 +39,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript 行程內容 -->
     <script>
         function loadJSON() {
             fetch('data.json')
@@ -43,21 +47,14 @@
                 .then(data => {
                     let content = '';
 
-                    // 創建多段落 HTML 的通用函數
-                    const createMultiParagraphHTML = (text) => {
-                        return text
-                            ? text.split('\n').map(paragraph =>
-                                `<p class="description">${paragraph.trim()}</p>`
-                            ).join('')
-                            : '';
-                    };
+                    const createMultiParagraphHTML = (text = '') =>
+                        text.split('\n').map(paragraph => `<p class="description">${paragraph.trim()}</p>`).join('');
 
-                    const createFeaturesHTML = (text) => {
+                    const createFeaturesHTML = (text = '') => {
                         return text
-                            ? text.split('\n').map(feature =>
-                                `<p>${feature.trim()}</p>`
-                            ).join('')
-                            : '';
+                            .split('\n')
+                            .map(feature => `<p>${feature.trim()}</p>`)
+                            .join('');
                     };
 
                     data.forEach((day, index) => {
@@ -65,7 +62,7 @@
 
                         const descriptionHTML = createMultiParagraphHTML(day.description);
 
-                        let pointsHTML = day.points.map(point =>
+                        let pointsHTML = (day.points || []).map(point =>
                             `<div class="arrow">${point.name}</div>`
                         ).join("");
 
@@ -79,7 +76,7 @@
                                         <h4>Features</h4>
                                         ${createFeaturesHTML(sight.features)}
                                     </div>
-                                    <p class="link"><a href="${sight.link}" target="_blank">相關網站</a></p>
+                                    <p class="link"><a href="${sight.link}" target="_blank" rel="noopener noreferrer">相關網站</a></p>
                                 </div>
                             </div>
                         `).join("");
@@ -94,8 +91,12 @@
                             </a>
                         `).join("");
 
+                        const foodSectionHTML = foodsHTML
+                            ? `<article class="food"><h2>Food</h2>${foodsHTML}</article>`
+                            : '';
+
                         content += `
-                            <section class="day" id="day${dayNumber}" style="background-image: url(${day.image});">
+                            <section class="day" id="day${dayNumber}" style="background-image: url(${day.image || ''});">
                                 <div>
                                 <article class="info">
                                     <span class="date">DAY${dayNumber}</span>
@@ -111,19 +112,18 @@
                                     ${sightsHTML}
                                 </article>
 
-                                ${foodsHTML ? `
-                                    <article class="food">
-                                        <h2>Food</h2>
-                                        ${foodsHTML}
-                                    </article>
-                                ` : ''}
+                                ${foodSectionHTML}
+
                             </div></section>
                         `;
                     });
 
                     document.querySelector("main").innerHTML = content;
                 })
-                .catch(error => console.error("Error loading JSON:", error));
+                .catch(error => {
+                    console.error("Error loading JSON:", error);
+                    document.querySelector("main").innerHTML = "<p class='error'>無法載入行程資料，請稍後再試。</p>";
+                });
         }
 
         document.addEventListener("DOMContentLoaded", loadJSON);

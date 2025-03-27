@@ -76,7 +76,7 @@
                                         <h4>Features</h4>
                                         ${createFeaturesHTML(sight.features)}
                                     </div>
-                                    <p class="link"><a href="${sight.link}" target="_blank" rel="noopener noreferrer">相關網站</a></p>
+                                    ${sight.link ? `<p class="link"><a href="${sight.link}" target="_blank" rel="noopener noreferrer">相關網站</a></p>` : ''}
                                 </div>
                             </div>
                         `).join("");

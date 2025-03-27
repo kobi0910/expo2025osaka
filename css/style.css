@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*--------------- 基本設定 ---------------*/
 * {
   margin: 0;
   padding: 0;
@@ -52,6 +53,7 @@ span {
   display: block;
 }
 
+/*--------------- header區塊 ---------------*/
 header {
   position: absolute;
   width: 100%;
@@ -66,10 +68,11 @@ header h1 {
   letter-spacing: 0.5rem;
 }
 
+/*--------------- 每日行程區塊 ---------------*/
 main section {
   display: flex;
   flex-direction: column;
-  padding-block: 40rem 20rem;
+  padding-block: 10rem;
 }
 main section > div {
   width: min(95%, 1000px);
@@ -87,6 +90,7 @@ main section article:last-child {
   margin-bottom: 0;
 }
 
+/* 當日主要地區 */
 .info > * {
   margin-bottom: 3rem;
 }
@@ -94,14 +98,17 @@ main section article:last-child {
   margin-bottom: 0;
 }
 .info h2 {
+  /* 地區名稱 */
   opacity: 1;
   text-shadow: black 0 0 0.5em;
 }
 .info .description {
+  /* 地區簡介 */
   text-shadow: black 0 0 5px;
   margin-bottom: 1em;
 }
 
+/* 當日景點 */
 .sight > div {
   display: flex;
   background: rgb(255, 255, 255);
@@ -112,13 +119,16 @@ main section article:last-child {
   margin-bottom: 3rem;
 }
 .sight > div .sightImg {
-  width: 35%;
+  /* 景點圖片區塊 */
+  width: 40%;
   background: center center;
   background-size: cover;
   border-radius: 8px 0 0 8px;
-  /*clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);*/
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
 }
 .sight > div .content {
+  /* 景點介紹區塊 */
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -126,17 +136,11 @@ main section article:last-child {
   padding: 2rem;
 }
 .sight > div .content h3 {
+  /* 景點名稱 */
   text-align: right;
 }
-.sight > div .content .link {
-  display: flex;
-}
-.sight > div .content .link a {
-  display: block;
-  padding: 0.5rem 3rem;
-  border: 1px solid #fff;
-}
 .sight > div .content .feature {
+  /* 景點特色 */
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -149,30 +153,42 @@ main section article:last-child {
 }
 .sight > div .content .feature p {
   display: flex;
-  /* 第一個顏色（紅色） */
-  /* 第二個顏色（黃色） */
 }
 .sight > div .content .feature p::before {
   content: "✦";
   margin-right: 0.4rem;
 }
 .sight > div .content .feature p:nth-child(2n+1)::before {
+  /* 第一個顏色（紅色） */
   color: rgb(255, 136, 39);
 }
 .sight > div .content .feature p:nth-child(2n+2)::before {
+  /* 第二個顏色（黃色） */
   color: rgb(255, 57, 123);
 }
+.sight > div .content .link {
+  display: flex;
+}
+.sight > div .content .link a {
+  /*相關連結按鈕*/
+  display: block;
+  padding: 0.5rem 3rem;
+  border: 1px solid #2699db;
+}
 .sight > div:nth-of-type(odd) {
+  /*每隔一個排列相反*/
   flex-direction: row-reverse;
 }
 .sight > div:nth-of-type(odd) .sightImg {
   border-radius: 0 8px 8px 0;
-  /*clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);*/
+  -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 .sight > div:nth-of-type(odd) .content h3 {
   text-align: left;
 }
 
+/* 當日美食 */
 .food {
   display: flex;
   flex-wrap: wrap;
@@ -205,6 +221,7 @@ main section article:last-child {
   opacity: 0.9;
 }
 
+/* 當日景點、當日美食標題 */
 .sight h2,
 .food h2 {
   font-family: "Rajdhani";
@@ -219,6 +236,7 @@ main section article:last-child {
   margin-bottom: 0;
 }
 
+/* 第N天文字 */
 .date {
   position: absolute;
   transform: rotate(90deg);
@@ -243,7 +261,7 @@ main section article:last-child {
 .arrow {
   display: flex;
   align-items: center;
-  padding: 1.2rem 2rem;
+  padding: 1rem 2rem;
   height: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -252,41 +270,45 @@ main section article:last-child {
   margin-right: -13px;
   -webkit-clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
           clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
-  /* 第一個箭頭 */
-  /* 最後一個箭頭 */
 }
 .arrow:first-child {
+  /* 第一個箭頭 */
   padding-left: 2rem;
   border-radius: 20px 0 0 20px;
   -webkit-clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%);
           clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%);
 }
 .arrow:last-child {
+  /* 最後一個箭頭 */
   padding-right: 2rem;
   border-radius: 0 20px 20px 0;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 15px 50%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 15px 50%);
 }
 
+/*--------------- footer區塊 ---------------*/
 footer {
   background: #333;
-  color: white;
+  color: rgb(129, 129, 129);
   text-align: center;
   position: sticky;
   bottom: 0;
   width: 100%;
+  padding: 0.6rem 0;
+}
+footer div {
+  width: min(95%, 1000px);
+  margin-inline: auto;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-}
-
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Pad */
 @media screen and (max-width: 992px) {
   .food a {
     flex: 1 0 calc(33.33% - 1rem);
     max-width: calc(33.33% - 1rem);
   }
 }
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Mobile */
 @media screen and (max-width: 600px) {
   header {
     padding: 1rem 0;

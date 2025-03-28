@@ -39,7 +39,7 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(24vw, 1.667rem + 6.944vw, 10rem);
+  font-size: clamp(23.5vw, 1.667rem + 6.944vw, 10rem);
 }
 
 h3 {
@@ -91,13 +91,14 @@ main section > div.dayTitle {
           backdrop-filter: unset;
   position: relative;
   padding: 0;
-  padding-bottom: clamp(8rem, 3.333rem + 9.722vw, 15rem);
+  padding-bottom: clamp(50vh, 3.333rem + 9.722vw, 15rem);
 }
 main section > div.dayTitle h2 {
   /* 大區域名稱 */
   width: 90%;
   opacity: 1;
   text-shadow: black 0 0 0.5em;
+  height: 2em;
 }
 main section article {
   margin-bottom: 6rem;
@@ -355,9 +356,6 @@ footer {
   }
   main section > div {
     padding: 2rem 1rem;
-  }
-  main section > div.dayTitle {
-    padding-bottom: 0 0 5rem;
   }
   main section > div.dayTitle h2 {
     width: 100%;

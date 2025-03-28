@@ -39,11 +39,11 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(5rem, 1.818rem + 8.485vw, 12rem);
+  font-size: clamp(5rem, 0.333rem + 9.722vw, 12rem);
 }
 
 h3 {
-  font-size: clamp(2rem, 0.5rem + 4vw, 3rem);
+  font-size: clamp(2rem, 1.333rem + 1.389vw, 3rem);
 }
 
 h4 {
@@ -79,19 +79,19 @@ main section {
 }
 main section > div {
   padding: 3rem 2rem 5rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
   background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 75%, rgba(0, 108, 158, 0.8));
+  border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
 }
 main section > div.dayTitle {
-  position: relative;
-  padding: 0;
-  padding-bottom: clamp(8rem, 4.818rem + 8.485vw, 15rem);
-  border: none;
   background: transparent;
+  border: none;
   -webkit-backdrop-filter: unset;
           backdrop-filter: unset;
+  position: relative;
+  padding: 0;
+  padding-bottom: clamp(8rem, 3.333rem + 9.722vw, 15rem);
 }
 main section article {
   margin-bottom: 6rem;
@@ -244,7 +244,7 @@ main section article:last-child {
 .sight h2,
 .food h2 {
   font-family: "Rajdhani";
-  font-size: clamp(3rem, 1.5rem + 4vw, 4rem);
+  font-size: clamp(3rem, 2.333rem + 1.389vw, 4rem);
   font-weight: 100;
   width: 100%;
   opacity: 0.7;
@@ -318,6 +318,9 @@ footer {
 }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Pad */
 @media screen and (max-width: 1024px) {
+  main section > div {
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 90%, rgba(0, 108, 158, 0.8));
+  }
   .food a {
     flex: 1 0 calc(33.33% - 1rem);
     max-width: calc(33.33% - 1rem);
@@ -327,7 +330,7 @@ footer {
     transform: unset;
     right: unset;
     top: unset;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, -0.6rem + 3.75vw, 1.8rem);
     display: block;
     margin: 0 0 0.8rem 0.5rem;
     color: rgb(255, 255, 255);
@@ -397,7 +400,7 @@ footer {
   .food h2 {
     margin-bottom: 0;
   }
-  .date {
-    font-size: 1.2rem;
+  .day {
+    background-position: bottom 25% center;
   }
 }/*# sourceMappingURL=style.css.map */

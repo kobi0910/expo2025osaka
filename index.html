@@ -69,6 +69,11 @@
                         let pointsHTML = (day.points || []).map(point =>
                             `<div class="arrow">${point.name}</div>`
                         ).join("");
+                        const pointsSectionHTML = pointsHTML
+                            ? `<div class="arrow-container">
+                                    ${pointsHTML}
+                                </div>`
+                            : '';
 
                         //建立景點區塊
                         let sightsHTML = (day.sights || []).map(sight => `
@@ -110,11 +115,7 @@
                                 </div>
                                 <div>
                                     <article class="info">
-                                        <!--<span class="date">DAY${dayNumber}</span>
-                                        <h2>${day.title}</h2>-->
-                                        <div class="arrow-container">
-                                            ${pointsHTML}
-                                        </div>
+                                        ${pointsSectionHTML}
                                         ${descriptionHTML}
                                     </article>
 

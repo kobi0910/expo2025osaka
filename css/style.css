@@ -1,6 +1,6 @@
 @charset "UTF-8";
 footer div, main section > div, header h1 {
-  width: min(95%, 1500px);
+  width: min(95%, 1200px);
   margin-inline: auto;
 }
 
@@ -39,7 +39,7 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(5rem, 0.333rem + 9.722vw, 12rem);
+  font-size: clamp(8rem, 5.333rem + 5.556vw, 12rem);
 }
 
 h3 {
@@ -78,7 +78,7 @@ main section {
   padding-block: 10rem;
 }
 main section > div {
-  padding: 3rem 2rem 5rem;
+  padding: 5rem 3rem;
   background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 75%, rgba(0, 108, 158, 0.8));
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(6px);
@@ -93,6 +93,12 @@ main section > div.dayTitle {
   padding: 0;
   padding-bottom: clamp(8rem, 3.333rem + 9.722vw, 15rem);
 }
+main section > div.dayTitle h2 {
+  /* 大區域名稱 */
+  width: 90%;
+  opacity: 1;
+  text-shadow: black 0 0 0.5em;
+}
 main section article {
   margin-bottom: 6rem;
 }
@@ -101,12 +107,6 @@ main section article:last-child {
 }
 
 /* 當日主要地區 */
-.dayTitle h2 {
-  /* 大區域名稱 */
-  opacity: 1;
-  text-shadow: black 0 0 0.5em;
-}
-
 .info > * {
   margin-bottom: 3rem;
 }
@@ -136,12 +136,12 @@ main section article:last-child {
 }
 .sight > div .sightImg {
   /* 景點圖片區塊 */
-  width: 40%;
+  width: 50%;
   background: center center;
   background-size: cover;
   border-radius: 8px 0 0 8px;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
 }
 .sight > div .content {
   /* 景點介紹區塊 */
@@ -149,7 +149,7 @@ main section article:last-child {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 3rem;
 }
 .sight > div .content h3 {
   /* 景點名稱 */
@@ -200,8 +200,8 @@ main section article:last-child {
 }
 .sight > div:nth-of-type(odd) .sightImg {
   border-radius: 0 8px 8px 0;
-  -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 .sight > div:nth-of-type(odd) .content h3 {
   text-align: left;
@@ -260,8 +260,8 @@ main section article:last-child {
   font-family: "mizolet";
   position: absolute;
   transform: rotate(90deg);
-  right: -3rem;
-  top: 5rem;
+  right: -5rem;
+  top: 5.5rem;
   font-size: 5rem;
   line-height: 1em;
   color: rgba(255, 255, 255, 0.8);

@@ -39,7 +39,7 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(23.5vw, 1.667rem + 6.944vw, 10rem);
+  font-size: 12rem;
 }
 
 h3 {
@@ -361,6 +361,7 @@ footer {
   }
   main section > div.dayTitle h2 {
     width: 100%;
+    font-size: 23.5vw;
   }
   main section article {
     margin-bottom: 3rem;

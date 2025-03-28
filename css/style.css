@@ -39,7 +39,7 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(20vw, 1.667rem + 6.944vw, 10rem);
+  font-size: clamp(24vw, 1.667rem + 6.944vw, 10rem);
 }
 
 h3 {

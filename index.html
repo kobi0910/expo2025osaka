@@ -47,9 +47,11 @@
                 .then(data => {
                     let content = '';
 
+                    //建立內文分段函式
                     const createMultiParagraphHTML = (text = '') =>
                         text.split('\n').map(paragraph => `<p class="description">${paragraph.trim()}</p>`).join('');
 
+                    //建立特色分段函式
                     const createFeaturesHTML = (text = '') => {
                         return text
                             .split('\n')
@@ -60,12 +62,15 @@
                     data.forEach((day, index) => {
                         const dayNumber = index + 1;
 
+                        //當日行程簡介
                         const descriptionHTML = createMultiParagraphHTML(day.description);
 
+                        //建立行程箭頭
                         let pointsHTML = (day.points || []).map(point =>
                             `<div class="arrow">${point.name}</div>`
                         ).join("");
 
+                        //建立景點區塊
                         let sightsHTML = (day.sights || []).map(sight => `
                             <div>
                                 <div class="sightImg" style="background-image: url(${sight.image});"></div>
@@ -81,6 +86,7 @@
                             </div>
                         `).join("");
 
+                        //建立美食區塊
                         let foodsHTML = (day.foods || []).map(food => `
                             <a href="${food.link}" target="_blank">
                                 <div class="foodImg" style="background-image: url(${food.image});"></div>
@@ -95,26 +101,31 @@
                             ? `<article class="food"><h2>Food</h2>${foodsHTML}</article>`
                             : '';
 
+                        //整合整體內容
                         content += `
                             <section class="day" id="day${dayNumber}" style="background-image: url(${day.image || ''});">
-                                <div>
-                                <article class="info">
+                                <div class="dayTitle">
                                     <span class="date">DAY${dayNumber}</span>
                                     <h2>${day.title}</h2>
-                                    <div class="arrow-container">
-                                        ${pointsHTML}
-                                    </div>
-                                    ${descriptionHTML}
-                                </article>
+                                </div>
+                                <div>
+                                    <article class="info">
+                                        <!--<span class="date">DAY${dayNumber}</span>
+                                        <h2>${day.title}</h2>-->
+                                        <div class="arrow-container">
+                                            ${pointsHTML}
+                                        </div>
+                                        ${descriptionHTML}
+                                    </article>
 
-                                <article class="sight">
-                                    <h2>Sights</h2>
-                                    ${sightsHTML}
-                                </article>
+                                    <article class="sight">
+                                        <h2>Sights</h2>
+                                        ${sightsHTML}
+                                    </article>
 
-                                ${foodSectionHTML}
-
-                            </div></section>
+                                    ${foodSectionHTML}
+                                </div>
+                            </section>
                         `;
                     });
 

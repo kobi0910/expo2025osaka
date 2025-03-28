@@ -1,4 +1,9 @@
 @charset "UTF-8";
+footer div, main section > div, header h1 {
+  width: min(95%, 1500px);
+  margin-inline: auto;
+}
+
 /*--------------- 基本設定 ---------------*/
 * {
   margin: 0;
@@ -34,7 +39,7 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(5rem, 2rem + 8vw, 7rem);
+  font-size: clamp(5rem, 1.818rem + 8.485vw, 12rem);
 }
 
 h3 {
@@ -63,8 +68,6 @@ header h1 {
   font-size: 2rem;
   font-family: "Rajdhani";
   font-weight: normal;
-  width: min(95%, 1000px);
-  margin-inline: auto;
   letter-spacing: 0.5rem;
 }
 
@@ -75,13 +78,20 @@ main section {
   padding-block: 10rem;
 }
 main section > div {
-  width: min(95%, 1000px);
-  margin-inline: auto;
   padding: 3rem 2rem 5rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 75%, rgba(0, 108, 158, 0.8));
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
+}
+main section > div.dayTitle {
+  position: relative;
+  padding: 0;
+  padding-bottom: clamp(8rem, 4.818rem + 8.485vw, 15rem);
+  border: none;
+  background: transparent;
+  -webkit-backdrop-filter: unset;
+          backdrop-filter: unset;
 }
 main section article {
   margin-bottom: 6rem;
@@ -91,6 +101,12 @@ main section article:last-child {
 }
 
 /* 當日主要地區 */
+.dayTitle h2 {
+  /* 大區域名稱 */
+  opacity: 1;
+  text-shadow: black 0 0 0.5em;
+}
+
 .info > * {
   margin-bottom: 3rem;
 }
@@ -98,12 +114,12 @@ main section article:last-child {
   margin-bottom: 0;
 }
 .info h2 {
-  /* 地區名稱 */
+  /* 大區域名稱 */
   opacity: 1;
   text-shadow: black 0 0 0.5em;
 }
 .info .description {
-  /* 地區簡介 */
+  /* 大區域簡介 */
   text-shadow: black 0 0 5px;
   margin-bottom: 1em;
 }
@@ -173,7 +189,10 @@ main section article:last-child {
   /*相關連結按鈕*/
   display: block;
   padding: 0.5rem 3rem;
-  border: 1px solid #2699db;
+  border: 1px solid #0059ff;
+}
+.sight > div .content .link a:hover {
+  border-color: #2c76ff;
 }
 .sight > div:nth-of-type(odd) {
   /*每隔一個排列相反*/
@@ -238,13 +257,14 @@ main section article:last-child {
 
 /* 第N天文字 */
 .date {
+  font-family: "mizolet";
   position: absolute;
   transform: rotate(90deg);
-  right: -2rem;
-  top: 6rem;
+  right: -3rem;
+  top: 5rem;
   font-size: 5rem;
   line-height: 1em;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* 每日大背景圖 */
@@ -267,7 +287,7 @@ main section article:last-child {
   border: 1px solid rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
-  margin-right: -13px;
+  margin-right: -12px;
   -webkit-clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
           clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
 }
@@ -296,20 +316,25 @@ footer {
   width: 100%;
   padding: 0.6rem 0;
 }
-footer div {
-  width: min(95%, 1000px);
-  margin-inline: auto;
-}
-
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Pad */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .food a {
     flex: 1 0 calc(33.33% - 1rem);
     max-width: calc(33.33% - 1rem);
   }
+  .date {
+    position: unset;
+    transform: unset;
+    right: unset;
+    top: unset;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 0 0.8rem 0.5rem;
+    color: rgb(255, 255, 255);
+  }
 }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   header {
     padding: 1rem 0;
     position: relative;
@@ -327,6 +352,9 @@ footer div {
   }
   main section > div {
     padding: 2rem 1rem;
+  }
+  main section > div.dayTitle {
+    padding-bottom: 0 0 5rem;
   }
   main section article {
     margin-bottom: 3rem;
@@ -370,9 +398,6 @@ footer div {
     margin-bottom: 0;
   }
   .date {
-    all: unset;
     font-size: 1.2rem;
-    display: block;
-    margin-bottom: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

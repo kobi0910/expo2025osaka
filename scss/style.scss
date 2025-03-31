@@ -1,3 +1,12 @@
+$link-color: #0059ff;
+$hover-color: #2c76ff;
+
+%width-layout {
+    //設定內容寬度
+    width: min(95%, 1000px);
+    margin-inline: auto;
+}
+
 /*--------------- 基本設定 ---------------*/
 * {
     margin: 0;
@@ -13,12 +22,12 @@ body {
 }
 
 a {
-    color: #0059ff;
+    color: $link-color;
     text-decoration: none;
     transition: color .5s ease;
 
     &:hover {
-        color: #2c76ff;
+        color: $hover-color;
     }
 }
 
@@ -34,11 +43,11 @@ h6 {
 }
 
 h2 {
-    font-size: clamp(5rem, 2rem + 8vw, 7rem);
+    font-size: 10rem;
 }
 
 h3 {
-    font-size: clamp(2rem, 0.5rem + 4vw, 3rem);
+    font-size: clamp(2rem, 1.333rem + 1.389vw, 3rem);
 }
 
 h4 {
@@ -64,8 +73,7 @@ header {
         font-size: 2rem;
         font-family: 'Rajdhani';
         font-weight: normal;
-        width: min(95%, 1000px);
-        margin-inline: auto;
+        @extend %width-layout;
         letter-spacing: .5rem;
     }
 }
@@ -78,12 +86,30 @@ main section {
     padding-block: 10rem;
 
     &>div {
-        width: min(95%, 1500px);
-        margin-inline: auto;
-        padding: 3rem 2rem 5rem;
-        border: 1px solid rgba(255, 255, 255, 0.3);
+        @extend %width-layout;
+        padding: 5rem 3rem;
         background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 75%, rgba(0, 108, 158, 0.8));
+        border: 1px solid rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(6px);
+
+        &.dayTitle {
+            background: transparent;
+            border: none;
+            backdrop-filter: unset;
+            position: relative;
+            padding: 0;
+            padding-bottom: clamp(45vh, 3.333rem + 9.722vw, 15rem);
+
+            h2 {
+                /* 大區域名稱 */
+                width: 90%;
+                opacity: 1;
+                text-shadow: black 0 0 .5em;
+                height: 2em;
+                /* 避免單字拆開 */
+                word-break: keep-all;
+            }
+        }
     }
 
     article {
@@ -106,13 +132,13 @@ main section {
     }
 
     h2 {
-        /* 地區名稱 */
+        /* 大區域名稱 */
         opacity: 1;
         text-shadow: black 0 0 .5em;
     }
 
     .description {
-        /* 地區簡介 */
+        /* 大區域簡介 */
         text-shadow: black 0 0 5px;
         margin-bottom: 1em;
     }
@@ -130,11 +156,11 @@ main section {
 
         .sightImg {
             /* 景點圖片區塊 */
-            width: 40%;
+            width: 50%;
             background: center center;
             background-size: cover;
             border-radius: 8px 0 0 8px;
-            clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
         }
 
         .content {
@@ -143,7 +169,7 @@ main section {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
-            padding: 2rem;
+            padding: 3rem;
 
             h3 {
                 /* 景點名稱 */
@@ -190,7 +216,11 @@ main section {
                     /*相關連結按鈕*/
                     display: block;
                     padding: .5rem 3rem;
-                    border: 1px solid #2699db;
+                    border: 1px solid $link-color;
+
+                    &:hover {
+                        border-color: $hover-color;
+                    }
                 }
             }
         }
@@ -201,7 +231,7 @@ main section {
 
             .sightImg {
                 border-radius: 0 8px 8px 0;
-                clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+                clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
             }
 
             .content {
@@ -257,7 +287,7 @@ main section {
 .food {
     h2 {
         font-family: 'Rajdhani';
-        font-size: clamp(3rem, 1.5rem + 4vw, 4rem);
+        font-size: clamp(3rem, 2.333rem + 1.389vw, 4rem);
         font-weight: 100;
         width: 100%;
         opacity: .7;
@@ -271,13 +301,14 @@ main section {
 
 /* 第N天文字 */
 .date {
+    font-family: 'mizolet';
     position: absolute;
     transform: rotate(90deg);
-    right: -2rem;
-    top: 6rem;
+    right: -5rem;
+    top: 5.5rem;
     font-size: 5rem;
     line-height: 1em;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* 每日大背景圖 */
@@ -300,7 +331,7 @@ main section {
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
-    margin-right: -13px;
+    margin-right: -12px;
     clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
 
     &:first-child {
@@ -330,27 +361,44 @@ footer {
     padding: .6rem 0;
 
     div {
-        width: min(95%, 1000px);
-        margin-inline: auto;
+        @extend %width-layout;
     }
 }
 
 
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Pad */
-@media screen and (max-width: 992px) {
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Pad */
+@media screen and (max-width: 1024px) {
+
+    main section {
+        &>div {
+            background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 85%, rgba(0, 108, 158, 0.8));
+        }
+    }
+
     .food {
         a {
             flex: 1 0 calc(33.33% - 1rem);
             max-width: calc(33.33% - 1rem);
         }
     }
+
+    .date {
+        position: unset;
+        transform: unset;
+        right: unset;
+        top: unset;
+        font-size: clamp(1.2rem, -0.6rem + 3.75vw, 1.8rem);
+        display: block;
+        margin: 0 0 .8rem .5rem;
+        color: rgba(255, 255, 255, 1);
+    }
 }
 
 
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Mobile */
-@media screen and (max-width: 600px) {
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Mobile */
+@media screen and (max-width: 768px) {
 
     header {
         padding: 1rem 0;
@@ -372,6 +420,13 @@ footer {
 
         &>div {
             padding: 2rem 1rem;
+
+            &.dayTitle {
+                h2 {
+                    width: 100%;
+                    font-size: 23.5vw;
+                }
+            }
         }
 
         article {
@@ -396,7 +451,7 @@ footer {
 
         .sightImg {
             width: 100%;
-            height: 15rem;
+            height: 30vh;
             border-radius: 8px 8px 0 0;
             clip-path: inset(0);
         }
@@ -424,10 +479,7 @@ footer {
         }
     }
 
-    .date {
-        all: unset;
-        font-size: 1.2rem;
-        display: block;
-        margin-bottom: 1rem;
+    .day {
+        background-position: bottom 25% center;
     }
 }

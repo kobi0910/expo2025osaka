@@ -1,6 +1,6 @@
 @charset "UTF-8";
 footer div, main section > div, header h1 {
-  width: min(95%, 1000px);
+  width: min(95%, 1500px);
   margin-inline: auto;
 }
 
@@ -39,7 +39,7 @@ h6 {
 }
 
 h2 {
-  font-size: 10rem;
+  font-size: clamp(10rem, 7.7143rem + 3.5714vw, 12rem);
 }
 
 h3 {
@@ -135,7 +135,7 @@ main section article:last-child {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   border-radius: 8px;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 .sight > div .sightImg {
   /* 景點圖片區塊 */
@@ -267,7 +267,7 @@ main section article:last-child {
   top: 5.5rem;
   font-size: 5rem;
   line-height: 1em;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 /* 每日大背景圖 */

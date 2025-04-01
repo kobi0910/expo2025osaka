@@ -49,9 +49,9 @@
 
                     //建立內文分段函式
                     const createMultiParagraphHTML = (text = '') =>
-                        text.split('\n').map(paragraph => `<p class="description">${paragraph.trim()}</p>`).join('');
+                        text.split('\n').map(paragraph => `<p>${paragraph.trim()}</p>`).join('');
 
-                    //建立特色分段函式
+                    //建立特色內文分段函式
                     const createFeaturesHTML = (text = '') => {
                         return text
                             .split('\n')
@@ -109,14 +109,16 @@
                         //整合整體內容
                         content += `
                             <section class="day" id="day${dayNumber}" style="background-image: url(${day.image || ''});">
+
                                 <div class="dayTitle">
                                     <span class="date">DAY${dayNumber}</span>
                                     <h2>${day.title}</h2>
+                                    <div class="description">${descriptionHTML}</div>
                                 </div>
+
                                 <div>
                                     <article class="info">
                                         ${pointsSectionHTML}
-                                        ${descriptionHTML}
                                     </article>
 
                                     <article class="sight">
@@ -126,6 +128,7 @@
 
                                     ${foodSectionHTML}
                                 </div>
+                                
                             </section>
                         `;
                     });

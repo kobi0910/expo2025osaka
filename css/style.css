@@ -51,7 +51,7 @@ h4 {
 }
 
 p {
-  line-height: 1.8;
+  line-height: 2;
 }
 
 span {
@@ -73,9 +73,19 @@ header h1 {
 
 /*--------------- 每日行程區塊 ---------------*/
 main section {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding-block: 10rem;
+}
+main section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
 main section > div {
   padding: 5rem 3rem;
@@ -91,16 +101,32 @@ main section > div.dayTitle {
           backdrop-filter: unset;
   position: relative;
   padding: 0;
-  padding-bottom: clamp(45vh, 3.333rem + 9.722vw, 15rem);
+  padding-bottom: clamp(15rem, -5rem + 41.667vw, 45rem);
 }
 main section > div.dayTitle h2 {
   /* 大區域名稱 */
   width: 90%;
   opacity: 1;
   text-shadow: black 0 0 0.5em;
-  height: 2em;
   /* 避免單字拆開 */
   word-break: keep-all;
+}
+main section > div.dayTitle p {
+  margin-bottom: 1rem;
+}
+main section > div.dayTitle p:last-child {
+  margin-bottom: 0;
+}
+main section > div.dayTitle .description {
+  /* 大區域簡介 */
+  color: #222;
+  width: 40vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.5rem;
+  margin: 5rem 0 1rem;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  box-shadow: rgb(255, 238, 0) 0.5rem 0.5rem;
 }
 main section article {
   margin-bottom: 6rem;
@@ -121,19 +147,14 @@ main section article:last-child {
   opacity: 1;
   text-shadow: black 0 0 0.5em;
 }
-.info .description {
-  /* 大區域簡介 */
-  text-shadow: black 0 0 5px;
-  margin-bottom: 1em;
-}
 
 /* 當日景點 */
 .sight > div {
   display: flex;
   background: rgb(255, 255, 255);
   color: #222;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
   border-radius: 8px;
   margin-bottom: 5rem;
 }
@@ -212,6 +233,7 @@ main section article:last-child {
 
 /* 當日美食 */
 .food {
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem 1.5rem;
@@ -289,7 +311,7 @@ main section article:last-child {
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   margin-right: -12px;
   -webkit-clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
           clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
@@ -322,7 +344,7 @@ footer {
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Pad */
 @media screen and (max-width: 1024px) {
   main section > div {
-    background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 85%, rgba(0, 108, 158, 0.8));
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 90%, rgba(0, 108, 158, 0.8));
   }
   .food a {
     flex: 1 0 calc(33.33% - 1rem);
@@ -357,11 +379,16 @@ footer {
     padding-block: 4rem;
   }
   main section > div {
-    padding: 2rem 1rem;
+    padding: 1rem;
   }
   main section > div.dayTitle h2 {
     width: 100%;
     font-size: 23.5vw;
+  }
+  main section > div.dayTitle .description {
+    /* 大區域簡介 */
+    width: 95%;
+    margin: 4rem auto 0;
   }
   main section article {
     margin-bottom: 3rem;

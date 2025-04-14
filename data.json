@@ -1,7 +1,7 @@
 [
     {
         "image": "https://images.unsplash.com/photo-1722191713894-8e8032354fdb?q=80&w=2571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "大阪",
+        "title": "新世界 /<wbr>心齋橋",
         "description": "清晨抵達關西機場，搭乘電車前往弁天町放置行李，正式展開大阪冒險！    \n    第一站前往新世界，漫步復古昭和風街道，登上通天閣俯瞰城市風光。    \n    接著移動到熱鬧的道頓堀和心齋橋商店街，感受霓虹閃爍的繁華魅力。最後，登上 HARUKAS 300 展望台，從日本最高大樓俯瞰大阪夜景，為首日畫下浪漫句點！",
         "points": [
             {
@@ -52,7 +52,7 @@
 
     {
         "image": "https://images.unsplash.com/photo-1717416696517-cae5e0edf02b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "大阪",
+        "title": "萬博紀念公園",
         "description": "今日悠閒探索萬博紀念公園，欣賞象徵性的「太陽之塔」，感受壯闊的大自然。    \n    午餐後前往大阪站周邊，探訪 KITTE、大丸、Grand Green Osaka 等熱門商場，順道朝聖 NINTENDO OSAKA，體驗滿滿遊戲氛圍，購買獨家周邊商品。",
         "points": [
             {
@@ -140,6 +140,66 @@
                 "image": "https://journal.meti.go.jp/wp-content/uploads/2025/02/image001-11-1024x611.png",
                 "description": "2025年大阪・關西萬國博覽會的未來社會展示區，是一個充滿創新與前瞻性的區域，旨在向世界展示未來社會的各種可能性。",
                 "features": "此區域將展示各種先進技術和未來生活方式，並探討如何運用這些技術解決全球共同面臨的挑戰。    \n    此區域將展示未來城市、未來住宅、未來交通等各種未來生活場景。    \n    運用AR和VR技術，並搭載5G網速，讓無法親臨現場的人也能體驗未來世界的氛圍。",
+                "link": ""
+            }
+        ],
+        "foods": [
+        ]
+    },
+
+        {
+        "image": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/05/24/4036c86e-db14-4c9d-9f1d-0dac1bac9f02-1716530118906-0038e39f53b225f163f0d4331dc97b95.png",
+        "title": "大阪<wbr>環球影城",
+        "description": "今天是玩樂日！    \n    直奔大阪環球影城，先攻佔話題度超高的「超級任天堂世界」，挑戰瑪利歐賽車～庫巴的挑戰書～與咚奇剛的瘋狂礦車，接著闖入魔法世界，體驗哈利波特禁忌之旅，感受魁地奇的刺激快感。    \n    午後挑戰極速飛天翼龍，最後來場小小兵瘋狂乘車遊，笑聲滿載！",
+        "points": [
+            {
+                "name": "通天閣"
+            },
+            {
+                "name": "道頓堀"
+            }
+        ],
+        "sights": [
+            {
+                "name": "超級任天堂世界",
+                "image": "https://www.usj.co.jp/tridiondata/usj/zh/tw/files/images/gds-images/usj-gds-super-nintendo-world-2024-b.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「瑪利歐賽車～庫巴的挑戰書～」：以瑪利歐賽車為主題的互動式遊樂設施，結合了AR技術，讓您身歷其境。    \n    「咚奇剛的瘋狂礦車™」：2024年新開幕的雲霄飛車，刺激感十足。    \n    「耀西冒險」：適合全家大小的乘坐型遊樂設施，在耀西的背上欣賞蘑菇王國的風景。",
+                "link": ""
+            },
+            {
+                "name": "哈利波特魔法世界",
+                "image": "https://www.usj.co.jp/tridiondata/usj/zh/tw/files/images/gds-images/usj-gds-the-wizarding-world-of-harry-potter-b.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「哈利波特禁忌之旅™」：結合了4K3D和體感技術的遊樂設施，帶您進入哈利波特的魔法世界。    \n    「鷹馬的飛行™」：適合全家大小的雲霄飛車，可以欣賞霍格華茲城堡和活米村的風景。",
+                "link": ""
+            },
+            {
+                "name": "小小兵樂園",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VIpIJifKiCNWo0clUyfZz5kT61KYInii3A&s",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「小小兵瘋狂乘車遊」：以小小兵為主題的4K3D遊樂設施，和小小兵們一起展開瘋狂的冒險。",
+                "link": ""
+            },
+            {
+                "name": "侏儸紀公園",
+                "image": "https://www.usj.co.jp/tridiondata/usj/zh/tw/files/images/gds-images/usj-gds-jurassic-park-the-ride-b.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「飛天翼龍」：刺激的飛行式雲霄飛車，讓您像翼龍一樣在空中翱翔。    \n    「侏儸紀公園-乘船遊」：乘坐遊船，在侏儸紀公園中探險，小心恐龍出沒！",
+                "link": ""
+            },
+            {
+                "name": "好萊塢區",
+                "image": "https://www.usj.co.jp/tridiondata/usj/zh/tw/files/images/gds-images/usj-gds-hollywood-dream-the-ride-backdrop-b.jpg",
+                "description": "KITTE大阪是2024年7月31日新開幕的購物商場，座落於大阪梅田車站的「JP TOWER大阪」內，從JR大阪站西口可直達。KITTE大阪結合了購物、美食和文化體驗，匯集了114家特色店鋪，是大阪梅田車站的全新地標。",
+                "features": "「好萊塢美夢-乘車遊」：刺激的雲霄飛車，您可以選擇自己喜歡的音樂，享受速度與激情的快感。    \n    「好萊塢美夢-乘車遊-逆轉世界」：以背向行駛的雲霄飛車。",
+                "link": ""
+            },
+            {
+                "name": "其他設施",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6WVXQiyshASzlPu6yQg53mHyUWboSQR5c5Q&s",
+                "description": "",
+                "features": "「大白鯊」：乘坐遊船，在平靜的小鎮上遭遇大白鯊的襲擊。    \n    「水世界」：精彩的水上表演，重現電影《水世界》中的場景。",
                 "link": ""
             }
         ],
@@ -285,31 +345,6 @@
                 "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
                 "description": "六甲山位於神戶市北部，是神戶最著名的山脈之一，海拔 931 公尺，提供壯麗的城市全景和自然景觀。這座山不僅是登山健行的熱點，還有眾多休閒娛樂設施，包括溫泉、動物園、植物園等，是一個理想的日間或夜間遊覽地點。六甲山在四季皆有不同的美景，無論是春天的櫻花、夏天的翠綠、秋天的紅葉，還是冬天的雪景，都是攝影愛好者的天堂。",
                 "features": "壯麗的全景：從六甲山的山頂可以俯瞰神戶市、神戶港及大阪灣，尤其是夜景，綠意盎然的白天與燦爛璀璨的夜晚形成強烈對比。    \n    六甲高原植物園：四季分明的植物園內，擁有多樣的植物和花卉，特別是春夏季節，花卉競相綻放，十分迷人。    \n    登山步道：對愛好登山的遊客來說，六甲山擁有多條登山步道，無論是輕鬆漫步或是挑戰自我，都能找到合適的路線。",
-                "link": ""
-            }
-        ],
-        "foods": [
-        ]
-    },
-
-    {
-        "image": "https://images.unsplash.com/photo-1582701466892-63be26a13e50?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "臨空城",
-        "description": "旅程的最後一天，彈性安排市區觀光與購物行程，可以悠哉漫步心齋橋、難波等地，或前往臨空城挖寶折扣精品。    \n    晚上帶著滿滿回憶前往關西機場，結束這趟精彩的大阪八日行！",
-        "points": [
-            {
-                "name": "通天閣"
-            },
-            {
-                "name": "道頓堀"
-            }
-        ],
-        "sights": [
-            {
-                "name": "臨空城",
-                "image": "https://ppap.kinto-jp.com/spots_images/7014-images/01JCQJ8B8DXRDP4KNKY0K8320T.jpg",
-                "description": "臨空城位於大阪市的南端，靠近關西國際機場，是一個結合購物、娛樂和休閒設施的綜合性區域。這裡的購物中心和餐廳擁有豐富的選擇，非常適合喜愛購物與美食的遊客。臨空城不僅是個購物天堂，還擁有美麗的海景，是享受休閒時光的理想場所。",
-                "features": "Rinku Premium Outlets：這是臨空城的主要吸引力之一，擁有超過 200 家品牌商店，提供折扣商品，吸引了大量購物愛好者。    \n    美麗的海景：臨空城的海岸線擁有壯麗的海景，您可以在海邊散步，享受悠閒的時光，也能遠眺關西國際機場的飛機起降。    \n    臨空公園：這個海濱公園提供了廣闊的綠地和悠閒的散步道，您可以在這裡放鬆身心，還能享受臨空城的全景。",
                 "link": ""
             }
         ],

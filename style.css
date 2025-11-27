@@ -1,0 +1,344 @@
+/* style.css */
+/* 引入 Shippori Mincho (優雅明體) 與 Plus Jakarta Sans (現代內文) */
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap');
+
+:root {
+    /* 日式傳統色系 */
+    --bg-paper: #FDFBF7;
+    /* 胡粉色：像和紙一樣的暖白 */
+    --text-ink: #2b2b2b;
+    /* 墨色：非純黑，帶有質感的深灰 */
+    --accent-red: #C43C3C;
+    /* 茜色：優雅的深紅，用於強調 */
+    --accent-indigo: #2F3E46;
+    /* 藍鐵色 */
+}
+
+body {
+    /* 設定基底顏色 (Fallback) */
+    background-color: #FFF5F7;
+
+    color: var(--text-ink);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    cursor: none;
+
+    /* --- 關鍵修改：背景疊加 --- */
+    /* 第一層：SVG 雜訊 (保留和紙質感) */
+    /* 第二層：淡淡的櫻花粉漸層 (從近乎白色的粉 -> 柔和粉) */
+    background-image:
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E"),
+        linear-gradient(180deg, #FFFCFC 0%, #FFF0F4 100%);
+
+    /* 讓漸層背景固定，不會隨著捲動而移動，質感更好 */
+    background-attachment: fixed;
+    background-size: auto, cover;
+}
+
+/* --- 字體設定 --- */
+/* 優雅的日式明體，用於 Logo 和大標題 */
+.font-mincho {
+    font-family: 'Shippori Mincho', serif;
+}
+
+/* --- 客製化游標 (紅色圓點，像日本國旗/太陽) --- */
+.cursor-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--accent-red);
+    /* 改成紅色 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--text-ink);
+    /* 改成墨色線條 */
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+}
+
+body.hovering .cursor-outline {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(196, 60, 60, 0.1);
+    /* 懸停時淡淡的紅色暈開 */
+    border-color: var(--accent-red);
+    opacity: 1;
+}
+
+/* --- 排版與裝飾 --- */
+/* 直書文字 (Tategaki) */
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 0.2em;
+    font-family: 'Shippori Mincho', serif;
+}
+
+.section-number {
+    font-family: 'Shippori Mincho', serif;
+    font-variant-numeric: oldstyle-nums;
+    /* 復古數字風格 */
+}
+
+/* 圖片樣式：從圓角改為俐落的直角，更像相片紙或畫作 */
+.img-frame {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+    /* 柔和陰影 */
+}
+
+.img-zoom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.section-container:hover .img-zoom {
+    transform: scale(1.03);
+    /* 放慢縮放速度，更優雅 */
+}
+
+/* 玻璃擬態改為「和紙標籤」風格 */
+.washi-card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    padding: 2rem;
+    position: relative;
+}
+
+.washi-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: var(--accent-red);
+    /* 左側紅色裝飾線 */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.washi-card:hover::before {
+    opacity: 1;
+}
+
+/* 隱藏捲軸 */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dcdcdc;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.reveal {
+    visibility: hidden;
+}
+
+/* 讓文字在彩色背景上浮現的陰影 */
+.hero-text-shadow {
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* 確保導航列在任何背景都清楚 */
+.nav-gradient {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* 橫向捲軸容器 */
+.gallery-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+
+    /* 隱藏捲軸 */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    /* --- 物理設定 --- */
+    /* 關閉 CSS 自動對齊與平滑，全權交給 JS 處理慣性 */
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.gallery-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* 確保圖片不會被壓縮 */
+.gallery-item {
+    flex: 0 0 80%;
+    scroll-snap-align: center;
+    position: relative;
+    height: 400px;
+    user-select: none;
+    /* 防止拖拉時選取到圖片變藍色 */
+}
+
+@media (min-width: 768px) {
+    .gallery-item {
+        flex: 0 0 45%;
+        height: 500px;
+    }
+}
+
+/* 圖片計數器或裝飾 */
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
+}
+
+/* 視差滾動區塊 (Parallax Break) */
+.parallax-break {
+    width: 100%;
+    height: 70vh;
+    /* 佔據螢幕 70% 高度 */
+    background-attachment: fixed;
+    /* 關鍵：讓背景固定，產生視差效果 */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+/* 圖片上的遮罩，讓文字清楚 */
+.overlay-dark {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    /* 輕微變暗 */
+}
+
+/* 滿版背景容器 (用於 Day 3&5) */
+.full-bg-section {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* 確保文字在圖片上清晰 */
+.text-shadow-lg {
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* style.css 新增 */
+
+/* --- 燈箱 (Lightbox) 效果 --- */
+
+/* 1. 圖片滑鼠提示：讓使用者知道可以點擊 */
+.img-zoom {
+    cursor: zoom-in;
+    /* 滑鼠移上去變成放大鏡 */
+}
+
+/* 2. 燈箱容器 (預設隱藏) */
+#lightbox-modal {
+    position: fixed;
+    inset: 0;
+    /* 佔滿全螢幕 */
+    background-color: rgba(0, 0, 0, 0.95);
+    /* 深黑背景，微透 */
+    z-index: 10000;
+    /* 確保在最上層 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    /* 隱藏時不阻擋點擊 */
+    transition: opacity 0.4s ease;
+    /* 淡入淡出動畫 */
+    cursor: zoom-out;
+    /* 點擊背景縮小 */
+}
+
+/* 燈箱顯示狀態 */
+#lightbox-modal.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* 3. 放大後的圖片 */
+#lightbox-image {
+    max-width: 90vw;
+    /* 最大寬度 90% */
+    max-height: 90vh;
+    /* 最大高度 90% */
+    object-fit: contain;
+    /* 保持比例完整顯示 */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    transform: scale(0.9);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    cursor: default;
+    /* 圖片上游標還原 */
+}
+
+/* 圖片顯示時的縮放動畫 */
+#lightbox-modal.active #lightbox-image {
+    transform: scale(1);
+}
+
+/* 4. 關閉按鈕 */
+#lightbox-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Syne', sans-serif;
+    /* 用我們原本設定的藝術字體 */
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    z-index: 10001;
+}
+
+#lightbox-close:hover {
+    opacity: 1;
+}

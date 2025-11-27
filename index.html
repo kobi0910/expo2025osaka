@@ -1,149 +1,787 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXPO 2025 OSAKA</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kiwi Maru">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rajdhani">
-
-    <!--Adobe Font-->
-    <script>
-        (function (d) {
-            var config = {
-                kitId: 'vpd5pdp',
-                scriptTimeout: 3000,
-                async: true
-            },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-        })(document);
-    </script>
-
+    <title>2025 Osaka Journey</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
-    <header>
-        <h1>EXPO 2025 OSAKA</h1>
+
+    <!-- 游標 -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Nav: 移除 mix-blend-difference，改用漸層背景確保清晰 -->
+    <nav
+        class="fixed top-0 w-full z-50 px-8 py-6 flex justify-between items-center text-white nav-gradient hoverable transition-all duration-500">
+        <div class="font-mincho font-bold text-2xl tracking-widest flex items-center gap-2 drop-shadow-md">
+            <span class="w-3 h-3 bg-red-600 rounded-full inline-block shadow-sm"></span>
+            JP.2025
+        </div>
+        <div class="hidden md:block font-mincho text-sm tracking-widest vertical-text h-10 drop-shadow-md opacity-90">
+            旅の記録</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+        class="relative w-full h-screen flex items-center justify-center overflow-hidden section-container hoverable">
+        <div class="absolute inset-0 z-0">
+            <!-- 1. 圖片來源更改為 photos/P9220424.jpg -->
+            <!-- 2. 移除 grayscale (灰階) -->
+            <!-- 3. 調整 brightness 為 100 (原色) 或微調 -->
+            <img src="photos/P9220424.jpg" class="img-zoom object-cover w-full h-full brightness-100">
+
+            <!-- 新增：薄墨遮罩 (Gradient Overlay) -->
+            <!-- 這層黑色半透明遮罩能確保文字清晰，同時不破壞照片的色彩 -->
+            <div class="absolute inset-0 bg-black/30 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30"></div>
+        </div>
+
+        <!-- 大標題區 -->
+        <div class="relative z-10 text-center px-4 text-white">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                <!-- 直書的大字裝飾 -->
+                <!-- 稍微增加透明度，讓它像浮水印一樣融合在照片裡 -->
+                <div
+                    class="vertical-text font-mincho text-6xl md:text-8xl opacity-90 select-none reveal hero-text-shadow border-l border-white/30 pl-4 ml-4">
+                    大阪
+                </div>
+
+                <div class="text-left md:pt-12">
+                    <p class="font-mincho text-lg mb-2 tracking-[0.5em] reveal delay-200 hero-text-shadow text-red-100">
+                        EXPO 2025</p>
+                    <h1 class="font-mincho text-5xl md:text-7xl mb-6 reveal delay-300 hero-text-shadow font-bold">KANSAI
+                    </h1>
+
+                    <!-- 裝飾線 -->
+                    <div class="w-16 h-px bg-white/80 mb-6 reveal delay-400"></div>
+
+                    <p
+                        class="text-sm font-light tracking-widest opacity-95 max-w-md leading-loose reveal delay-400 hero-text-shadow">
+                        從萬博的未來幻想到古都的靜謐時光。<br>
+                        一段關於時間與文化的旅程。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 向下滾動提示 -->
+        <div
+            class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white text-xs tracking-widest vertical-text font-mincho animate-bounce shadow-black drop-shadow-md">
+            スクロール
+        </div>
     </header>
 
-    <main>
-        <!-- JavaScript 會動態填充行程內容 -->
-    </main>
-
-    <footer>
-        <div>
-            <p>&copy; EXPO 2025 OSAKA</p>
+    <!-- DAY 1: Arrival & Check-in -->
+    <section class="py-24 relative border-b border-gray-200">
+        <!-- 裝飾背景字 -->
+        <div
+            class="absolute top-20 left-10 font-mincho text-9xl text-gray-100 -z-10 select-none vertical-text opacity-60">
+            初日
         </div>
+
+        <div class="container mx-auto px-6">
+            <!-- Day 1 Header -->
+            <div class="mb-16 reveal">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="w-2 h-2 bg-red-600 rounded-full"></span>
+                    <span class="font-mincho text-red-700 text-sm tracking-widest">DAY 01 • SEP 20</span>
+                </div>
+                <h2 class="font-mincho text-4xl md:text-5xl text-gray-800">Touchdown Kansai</h2>
+            </div>
+
+            <!-- Block 1: Departure (出發) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-24 reveal">
+                <!-- 左側：直書標題與資訊 -->
+                <div
+                    class="lg:col-span-3 flex lg:flex-col justify-between border-t lg:border-t-0 lg:border-l border-gray-300 pt-4 lg:pt-0 lg:pl-6">
+                    <div>
+                        <h3 class="font-mincho text-3xl mb-2 vertical-text lg:h-32 text-gray-800">旅立ち</h3>
+                        <p class="font-mincho text-gray-500 text-sm mt-4">TPE ➔ KIX</p>
+                    </div>
+                    <div class="text-right lg:text-left mt-4 lg:mt-auto">
+                        <div class="text-xs text-gray-400 font-mincho mb-1">DEPARTURE</div>
+                        <div class="font-mincho text-xl">15:20</div>
+                        <div class="text-xs text-gray-400 font-mincho mt-4 mb-1">FLIGHT</div>
+                        <div class="font-mincho text-xl">GK54</div>
+                    </div>
+                </div>
+
+                <!-- 右側：橫向滑動相簿 -->
+                <div class="lg:col-span-9">
+                    <div class="gallery-scroll hoverable">
+                        <!-- 照片 1: 桃園機場 -->
+                        <div class="gallery-item img-frame">
+                            <img src="photos/P9200003.jpg" class="img-zoom">
+                            <div class="gallery-caption font-mincho">桃園國際機場 T1</div>
+                        </div>
+                        <!-- 照片 2: 飛機/機翼 -->
+                        <div class="gallery-item img-frame">
+                            <img src="photos/P9200004.jpg" class="img-zoom">
+                            <div class="gallery-caption font-mincho">捷星航空 GK54</div>
+                        </div>
+                        <!-- 照片 3: 機上視角/雲海 -->
+                        <div class="gallery-item img-frame">
+                            <img src="photos/P9200024.jpg" class="img-zoom">
+                            <div class="gallery-caption font-mincho">兩小時的飛行</div>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400 mt-2 text-right font-mincho tracking-widest">SCROLL ➔</p>
+                </div>
+            </div>
+
+            <!-- Block 2: Hotel (住宿) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-24 reveal">
+                <div
+                    class="lg:col-span-3 flex lg:flex-col justify-between border-t lg:border-t-0 lg:border-l border-gray-300 pt-4 lg:pt-0 lg:pl-6 lg:order-last">
+                    <div>
+                        <h3 class="font-mincho text-3xl mb-2 vertical-text lg:h-32 text-gray-800">宿泊</h3>
+                        <p class="font-mincho text-gray-500 text-sm mt-4">Hotel Nikko</p>
+                    </div>
+                    <div class="text-right lg:text-left mt-4 lg:mt-auto">
+                        <div class="text-xs text-gray-400 font-mincho mb-1">CHECK-IN</div>
+                        <div class="font-mincho text-xl">22:30</div>
+                        <div class="text-xs text-gray-400 font-mincho mt-4 mb-1">LOCATION</div>
+                        <div class="font-mincho text-sm">Kansai Airport</div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-9">
+                    <div class="gallery-scroll hoverable">
+                        <!-- 照片 1: 飯店外觀/大廳 -->
+                        <div class="gallery-item img-frame">
+                            <img src="photos/P9200033.jpg" class="img-zoom">
+                            <div class="gallery-caption font-mincho">ホテル日航 関西空港</div>
+                        </div>
+                        <!-- 照片 2: 房間 -->
+                        <div class="gallery-item img-frame">
+                            <img src="photos/P9200040.jpg" class="img-zoom">
+                            <div class="gallery-caption font-mincho">直通機場的便利</div>
+                        </div>
+                        <!-- 照片 3: 夜景 -->
+                        <div class="gallery-item img-frame">
+                            <img src="photos/P9200047.jpg" class="img-zoom">
+                            <div class="gallery-caption font-mincho">空港夜景</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block 3: Dinner (晚餐) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 reveal">
+                <div
+                    class="lg:col-span-3 flex lg:flex-col justify-between border-t lg:border-t-0 lg:border-l border-gray-300 pt-4 lg:pt-0 lg:pl-6">
+                    <div>
+                        <h3 class="font-mincho text-3xl mb-2 vertical-text lg:h-32 text-gray-800">夕食</h3>
+                        <p class="font-mincho text-gray-500 text-sm mt-4">First Meal</p>
+                    </div>
+                    <div class="text-right lg:text-left mt-4 lg:mt-auto">
+                        <div class="text-xs text-gray-400 font-mincho mb-1">OPTION A</div>
+                        <div class="font-mincho text-lg">Lawson</div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-9">
+                    <div class="gallery-scroll hoverable">
+                        <!-- 照片 1: 便利商店/食物 -->
+                        <div class="gallery-item img-frame">
+                            <img src="photos/P9200064.jpg" class="img-zoom">
+                            <div class="gallery-caption font-mincho">深夜的炸雞君</div>
+                        </div>
+                        <!-- 照片 2: 丼飯 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">なか卯 親子丼</div>
+                        </div>
+                        <!-- 照片 3: 飲料 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1629230501865-c774f3583566?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">日本第一瓶飲料</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAY 2: Expo Commemorative Park -->
+    <section class="py-24 relative border-b border-gray-200">
+        <!-- 裝飾背景字 -->
+        <div
+            class="absolute top-20 right-10 font-mincho text-9xl text-gray-200 -z-10 select-none vertical-text opacity-60">
+            万博
+        </div>
+
+        <div class="container mx-auto px-6">
+            <!-- Day 2 Header -->
+            <div class="mb-16 reveal">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="w-2 h-2 bg-red-600 rounded-full"></span>
+                    <span class="font-mincho text-red-700 text-sm tracking-widest">DAY 02 • SEP 21</span>
+                </div>
+                <h2 class="font-mincho text-4xl md:text-5xl text-gray-800">Expo '70 Commemorative Park</h2>
+                <p class="font-mincho text-gray-500 mt-4 tracking-widest">大阪のシンボルと、未来への遺産。</p>
+            </div>
+
+            <!-- Block 1: Tower of the Sun (太陽之塔) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-24 reveal">
+                <!-- 左側資訊 -->
+                <div
+                    class="lg:col-span-3 flex lg:flex-col justify-between border-t lg:border-t-0 lg:border-l border-gray-300 pt-4 lg:pt-0 lg:pl-6">
+                    <div>
+                        <h3 class="font-mincho text-3xl mb-2 vertical-text lg:h-40 text-gray-800">太陽の塔</h3>
+                        <p class="font-mincho text-gray-500 text-sm mt-4">Tower of the Sun</p>
+                    </div>
+                    <div class="text-right lg:text-left mt-4 lg:mt-auto">
+                        <div class="text-xs text-gray-400 font-mincho mb-1">ENTRY</div>
+                        <div class="font-mincho text-xl">15:40</div>
+                        <div class="text-xs text-gray-400 font-mincho mt-4 mb-1">NOTE</div>
+                        <div class="font-mincho text-sm">內部參觀 (預約制)</div>
+                    </div>
+                </div>
+
+                <!-- 右側相簿 -->
+                <div class="lg:col-span-9">
+                    <div class="gallery-scroll hoverable">
+                        <!-- 照片 1: 正面 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1599827670607-e170438a0c20?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">現在：太陽の顔</div>
+                        </div>
+                        <!-- 照片 2: 背面 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1624602324338-319983944749?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">過去：黒い太陽</div>
+                        </div>
+                        <!-- 照片 3: 內部/生命之樹 (示意圖) -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">内部：生命の樹</div>
+                        </div>
+                        <!-- 照片 4 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1605626268808-16788863f680?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">黃金之顏</div>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400 mt-2 text-right font-mincho tracking-widest">SCROLL ➔</p>
+                </div>
+            </div>
+
+            <!-- Block 2: EXPO'70 Pavilion (展館) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-24 reveal">
+                <div
+                    class="lg:col-span-3 flex lg:flex-col justify-between border-t lg:border-t-0 lg:border-l border-gray-300 pt-4 lg:pt-0 lg:pl-6 lg:order-last">
+                    <div>
+                        <h3 class="font-mincho text-3xl mb-2 vertical-text lg:h-48 text-gray-800">記念パビリオン</h3>
+                        <p class="font-mincho text-gray-500 text-sm mt-4">Legacy Museum</p>
+                    </div>
+                    <div class="text-right lg:text-left mt-4 lg:mt-auto">
+                        <div class="text-xs text-gray-400 font-mincho mb-1">VISIT</div>
+                        <div class="font-mincho text-xl">14:00</div>
+                        <div class="text-xs text-gray-400 font-mincho mt-4 mb-1">TICKET</div>
+                        <div class="font-mincho text-sm">¥210</div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-9">
+                    <div class="gallery-scroll hoverable">
+                        <!-- 照片 1: 外觀 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1565618428283-365261353164?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">EXPO'70 パビリオン別館</div>
+                        </div>
+                        <!-- 照片 2: 展示品 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1516568288228-5a983b54437a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">當時的制服與設計</div>
+                        </div>
+                        <!-- 照片 3: 氛圍 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1596277025807-6bd27f519543?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">1970年の熱狂</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block 3: Sunset & Shopping (其他) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 reveal">
+                <div
+                    class="lg:col-span-3 flex lg:flex-col justify-between border-t lg:border-t-0 lg:border-l border-gray-300 pt-4 lg:pt-0 lg:pl-6">
+                    <div>
+                        <h3 class="font-mincho text-3xl mb-2 vertical-text lg:h-32 text-gray-800">夕暮れ</h3>
+                        <p class="font-mincho text-gray-500 text-sm mt-4">Sunset & Shop</p>
+                    </div>
+                    <div class="text-right lg:text-left mt-4 lg:mt-auto">
+                        <div class="text-xs text-gray-400 font-mincho mb-1">WHEEL</div>
+                        <div class="font-mincho text-lg">Redhorse OSAKA</div>
+                        <div class="text-xs text-gray-400 font-mincho mt-4 mb-1">MALL</div>
+                        <div class="font-mincho text-lg">LaLaport</div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-9">
+                    <div class="gallery-scroll hoverable">
+                        <!-- 照片 1: 摩天輪 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1533552803889-408d6d90d819?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">日本第一高摩天輪 (17:40)</div>
+                        </div>
+                        <!-- 照片 2: 購物中心 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1555529733-14637d7dd576?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">LaLaport EXPOCITY</div>
+                        </div>
+                        <!-- 照片 3: 晚餐 -->
+                        <div class="gallery-item img-frame">
+                            <img src="https://images.unsplash.com/photo-1552526881-721ce8509ea8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                            <div class="gallery-caption font-mincho">万博記念公園駅</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Break Image 1: Transition to Expo (大阪的城市或未來感) -->
+    <!-- 請更換為一張具備未來感或大阪夜景的照片 -->
+    <div class="parallax-break" style="background-image: url('photos/P9220252.jpg');">
+        <div class="overlay-dark"></div>
+        <div class="relative z-10 text-center text-white reveal">
+            <div
+                class="vertical-text font-mincho text-4xl md:text-5xl mx-auto h-48 opacity-90 border-l border-white/50 pl-6 shadow-black drop-shadow-lg">
+                未来への鼓動
+            </div>
+            <p class="font-mincho mt-8 tracking-[0.3em] text-sm uppercase opacity-80">Heartbeat of the Future</p>
+        </div>
+    </div>
+
+    <!-- DAY 3 & 5: EXPO 2025 (Full Background + Dynamic Grid) -->
+    <!-- 背景圖建議：萬博會場全景 -->
+    <section class="py-32 full-bg-section"
+        style="background-image: url('photos/P9220387.jpg');">
+        <!-- 黑色半透明遮罩 -->
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-[2px]"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <!-- 標題區 -->
+            <div class="text-center mb-20 reveal">
+                <div class="inline-block border border-white/30 bg-black/30 backdrop-blur-md px-8 py-3 mb-6">
+                    <span class="font-mincho text-xl tracking-[0.5em] text-white">大阪関西万博</span>
+                </div>
+                <h2 class="font-mincho text-5xl md:text-7xl mb-6 text-white text-shadow-lg">Designing Future Society
+                </h2>
+                <p class="font-light text-gray-200 max-w-2xl mx-auto text-shadow-lg">
+                    踏上夢洲 (Yumeshima)。探索「生命的光輝」，見證人類與科技的共生。
+                </p>
+            </div>
+
+            <!-- 卡片網格區 (Grid System) -->
+            <!-- grid-cols-1 (手機1欄) / md:grid-cols-2 (平板2欄) / lg:grid-cols-3 (電腦3欄) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+
+                <!-- ==================== 卡片模組開始 ==================== -->
+                <!-- Card 1: Future of Life -->
+                <div class="hoverable group reveal-up">
+                    <div
+                        class="bg-white/10 backdrop-blur-md border border-white/20 p-3 h-full flex flex-col transition duration-500 hover:bg-white/20">
+                        <!-- 圖片 -->
+                        <div class="h-[250px] img-frame group-hover:-translate-y-2 transition duration-500">
+                            <!-- 請更換照片 -->
+                            <img src="https://images.unsplash.com/photo-1518005052357-e987195118d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                        </div>
+                        <!-- 文字內容 -->
+                        <div class="flex justify-between items-start pt-6 px-2 pb-2 flex-1">
+                            <div>
+                                <span class="font-mincho text-red-400 text-sm block mb-1">DAY 03</span>
+                                <h3 class="font-mincho text-2xl text-white mb-2">Future of Life</h3>
+                                <p class="text-xs text-gray-300 font-light leading-relaxed">
+                                    河森正治製作。探索生命的演化與未來的可能性。
+                                </p>
+                            </div>
+                            <!-- 右上角直書標籤 -->
+                            <span
+                                class="vertical-text font-mincho text-gray-300 text-sm h-20 border-l border-white/20 pl-2">抽選当選</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==================== 卡片模組結束 ==================== -->
+
+                <!-- Card 2: Kansai Pavilion -->
+                <div class="hoverable group reveal-up delay-100">
+                    <div
+                        class="bg-white/10 backdrop-blur-md border border-white/20 p-3 h-full flex flex-col transition duration-500 hover:bg-white/20">
+                        <div class="h-[250px] img-frame group-hover:-translate-y-2 transition duration-500">
+                            <img src="https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                        </div>
+                        <div class="flex justify-between items-start pt-6 px-2 pb-2 flex-1">
+                            <div>
+                                <span class="font-mincho text-red-400 text-sm block mb-1">DAY 05</span>
+                                <h3 class="font-mincho text-2xl text-white mb-2">Kansai Pavilion</h3>
+                                <p class="text-xs text-gray-300 font-light leading-relaxed">
+                                    展現關西地區的工藝與熱情。早場預約入場。
+                                </p>
+                            </div>
+                            <span
+                                class="vertical-text font-mincho text-gray-300 text-sm h-20 border-l border-white/20 pl-2">午前九時</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: 範例新增 (您可以複製這塊來修改) -->
+                <div class="hoverable group reveal-up delay-200">
+                    <div
+                        class="bg-white/10 backdrop-blur-md border border-white/20 p-3 h-full flex flex-col transition duration-500 hover:bg-white/20">
+                        <div class="h-[250px] img-frame group-hover:-translate-y-2 transition duration-500">
+                            <!-- 建議放一張食物或夜景照 -->
+                            <img src="https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                class="img-zoom">
+                        </div>
+                        <div class="flex justify-between items-start pt-6 px-2 pb-2 flex-1">
+                            <div>
+                                <span class="font-mincho text-red-400 text-sm block mb-1">DAY 05</span>
+                                <h3 class="font-mincho text-2xl text-white mb-2">Expo Dinner</h3>
+                                <p class="text-xs text-gray-300 font-light leading-relaxed">
+                                    會場內的未來食體驗，品嚐細胞培養肉或永續海鮮。
+                                </p>
+                            </div>
+                            <span
+                                class="vertical-text font-mincho text-gray-300 text-sm h-20 border-l border-white/20 pl-2">未来食</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 若要新增第 4 張，請複製上方 Card 3 的代碼貼在這裡 -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Break Image 2: Transition to Nara (自然、森林、寧靜) -->
+    <!-- 請更換為奈良公園、森林或神社參道的照片 -->
+    <div class="parallax-break"
+        style="background-image: url('photos/P9230600.jpg'); height: 60vh;">
+        <div class="overlay-dark"></div>
+        <div class="relative z-10 text-center text-white reveal">
+            <h2 class="font-mincho text-5xl md:text-6xl mb-4 text-shadow-lg opacity-90">静寂</h2>
+            <p class="font-mincho tracking-[0.5em] text-xs uppercase opacity-70">Silence & Nature</p>
+        </div>
+    </div>
+
+    <!-- DAY 4: Nara -->
+    <section class="py-24 bg-[#F5F5F0] relative">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                <!-- 直書標題 -->
+                <div class="md:col-span-2 hidden md:flex justify-center reveal">
+                    <h2
+                        class="vertical-text font-mincho text-5xl text-gray-800 tracking-widest h-auto py-12 border-l border-gray-300 pl-8">
+                        奈良古都
+                    </h2>
+                </div>
+
+                <!-- 內容 -->
+                <div class="md:col-span-10">
+                    <div class="mb-12 md:hidden">
+                        <h2 class="font-mincho text-4xl text-gray-800">奈良古都</h2>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="h-64 md:h-96 img-frame hoverable reveal">
+                            <img src="https://images.unsplash.com/photo-1545564449-30c25ce3b44b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                                class="img-zoom">
+                        </div>
+                        <div class="bg-white p-8 md:p-12 shadow-sm flex flex-col justify-center reveal hoverable">
+                            <span class="font-mincho text-red-700 text-sm mb-4 block">DAY 04 • SEP 23</span>
+                            <h3 class="font-mincho text-3xl mb-6">Timeless Moments</h3>
+                            <p class="font-light text-gray-600 leading-relaxed mb-6">
+                                搭乘近鐵前往時間靜止的地方。
+                                東大寺的香火，春日大社的參道，以及那些不怕人的鹿。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAY 6: USJ (Style Change: Dark Mode) -->
+    <section class="py-24 bg-[#111] text-gray-200 section-container">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <span class="font-mincho text-red-600 text-lg mb-2 block">DAY 06</span>
+                <h2 class="font-mincho text-4xl md:text-6xl text-white tracking-wider">UNIVERSAL STUDIOS</h2>
+                <p class="font-mincho text-gray-500 mt-2">非日常の体験</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <!-- 票券風格卡片 -->
+                <div
+                    class="border border-gray-800 p-6 hover:bg-gray-900 transition hoverable reveal-up delay-100 group">
+                    <div class="font-mincho text-red-500 text-xs mb-4">08:00 ENTRY</div>
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-white transition">Chainsaw Man</h3>
+                    <p class="text-xs text-gray-500">Hollywood Dream 4-D</p>
+                </div>
+                <div
+                    class="border border-gray-800 p-6 hover:bg-gray-900 transition hoverable reveal-up delay-200 group">
+                    <div class="font-mincho text-yellow-500 text-xs mb-4">10:30 FAST PASS</div>
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-white transition">Harry Potter</h3>
+                    <p class="text-xs text-gray-500">Forbidden Journey</p>
+                </div>
+                <div
+                    class="border border-gray-800 p-6 hover:bg-gray-900 transition hoverable reveal-up delay-300 group">
+                    <div class="font-mincho text-green-500 text-xs mb-4">16:50 FAST PASS</div>
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-white transition">Mario Kart</h3>
+                    <p class="text-xs text-gray-500">Koopa's Challenge</p>
+                </div>
+                <div
+                    class="border border-gray-800 p-6 hover:bg-gray-900 transition hoverable reveal-up delay-400 group">
+                    <div class="font-mincho text-orange-500 text-xs mb-4">17:20 FAST PASS</div>
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-white transition">Donkey Kong</h3>
+                    <p class="text-xs text-gray-500">Mine Cart Madness</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAY 7: Nintendo & Kyoto -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex items-center gap-6 mb-12 reveal">
+                <span class="w-12 h-px bg-red-700"></span>
+                <span class="font-mincho text-xl tracking-widest">任天堂博物館</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="h-[500px] img-frame hoverable reveal-left">
+                    <img src="https://images.unsplash.com/photo-1612404730960-5c71579fca2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                        class="img-zoom">
+                </div>
+                <div class="reveal-right">
+                    <span class="font-mincho text-red-700 text-sm mb-2 block">DAY 07 • SEP 26</span>
+                    <h2 class="font-mincho text-4xl mb-6">Play & History</h2>
+                    <p class="font-light text-gray-600 leading-relaxed mb-8">
+                        從九条出發，前往京都宇治。<br>
+                        在這裡追溯遊戲的歷史。體驗花札製作 (Hanafuda Workshop)，
+                        感受傳統工藝與現代娛樂的結合。
+                    </p>
+                    <div
+                        class="inline-block border border-gray-300 px-6 py-3 font-mincho text-sm hover:bg-black hover:text-white transition cursor-none hoverable">
+                        ワークショップ ¥2,000
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DAY 8: Farewell -->
+    <section class="py-32 bg-[#FDFBF7]">
+        <div class="container mx-auto px-6 text-center reveal">
+            <div class="vertical-text mx-auto h-32 font-mincho text-2xl text-gray-400 mb-8 tracking-widest">
+                旅の終わり
+            </div>
+            <h2 class="font-mincho text-4xl md:text-5xl mb-6">Farewell, Kansai</h2>
+            <p class="font-light text-gray-500 mb-12">
+                神戶異人館的坡道，最後的漫步。<br>
+                帶著滿滿的回憶，搭上 GK51 返程。
+            </p>
+
+            <div class="inline-block p-8 border border-gray-200 bg-white hoverable">
+                <div class="flex justify-between items-center gap-12 border-b border-gray-100 pb-4 mb-4">
+                    <div class="text-left">
+                        <span class="block text-xs text-gray-400 font-mincho">KIX / OSAKA</span>
+                        <span class="font-mincho text-3xl">23:35</span>
+                    </div>
+                    <div class="font-mincho text-red-700 text-xl">➔</div>
+                    <div class="text-right">
+                        <span class="block text-xs text-gray-400 font-mincho">TPE / TAIPEI</span>
+                        <span class="font-mincho text-3xl">01:30</span>
+                    </div>
+                </div>
+                <div class="font-mincho text-sm text-gray-400 tracking-widest">JETSTAR GK51</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#2b2b2b] text-gray-400 py-12 text-center">
+        <div class="font-mincho text-lg text-white mb-2">JP.2025</div>
+        <p class="text-xs font-light tracking-widest opacity-50">OSAKA MEMORY ARCHIVE</p>
     </footer>
 
-    <!-- JavaScript 行程內容 -->
+    <!-- 燈箱 (Lightbox) 模組 -->
+    <div id="lightbox-modal">
+        <div id="lightbox-close">×</div>
+        <img id="lightbox-image" src="" alt="Full View">
+    </div>
+
+    <!-- JavaScript 邏輯：ScrollReveal + 純滾輪慣性相簿 -->
     <script>
-        function loadJSON() {
-            fetch('data.json')
-                .then(response => response.json())
-                .then(data => {
-                    let content = '';
+        // 1. 初始化 ScrollReveal (動畫) - 保持不變
+        ScrollReveal().reveal('.reveal', { distance: '40px', duration: 1500, easing: 'cubic-bezier(0.16, 1, 0.3, 1)', origin: 'bottom', interval: 150 });
+        ScrollReveal().reveal('.reveal-left', { distance: '60px', duration: 1500, easing: 'cubic-bezier(0.16, 1, 0.3, 1)', origin: 'left' });
+        ScrollReveal().reveal('.reveal-right', { distance: '60px', duration: 1500, easing: 'cubic-bezier(0.16, 1, 0.3, 1)', origin: 'right' });
+        ScrollReveal().reveal('.reveal-up', { distance: '40px', duration: 1000, origin: 'bottom', interval: 100 });
 
-                    //建立內文分段函式
-                    const createMultiParagraphHTML = (text = '') =>
-                        text.split('\n').map(paragraph => `<p>${paragraph.trim()}</p>`).join('');
+        // 2. 客製化游標邏輯 - 保持不變
+        const cursorDot = document.querySelector('.cursor-dot');
+        const cursorOutline = document.querySelector('.cursor-outline');
 
-                    //建立特色內文分段函式
-                    const createFeaturesHTML = (text = '') => {
-                        return text
-                            .split('\n')
-                            .map(feature => `<p>${feature.trim()}</p>`)
-                            .join('');
-                    };
+        window.addEventListener('mousemove', function (e) {
+            const posX = e.clientX;
+            const posY = e.clientY;
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+            cursorOutline.animate({ left: `${posX}px`, top: `${posY}px` }, { duration: 500, fill: "forwards" });
+        });
 
-                    data.forEach((day, index) => {
-                        const dayNumber = index + 1;
+        const hoverables = document.querySelectorAll('a, button, .hoverable');
+        hoverables.forEach(el => {
+            el.addEventListener('mouseenter', () => document.body.classList.add('hovering'));
+            el.addEventListener('mouseleave', () => document.body.classList.remove('hovering'));
+        });
 
-                        //當日行程簡介
-                        const descriptionHTML = createMultiParagraphHTML(day.description);
 
-                        //建立行程箭頭
-                        let pointsHTML = (day.points || []).map(point =>
-                            `<div class="arrow">${point.name}</div>`
-                        ).join("");
-                        const pointsSectionHTML = pointsHTML
-                            ? `<div class="arrow-container">
-                                    ${pointsHTML}
-                                </div>`
-                            : '';
+        // 3. 【智慧邊界判斷】相簿滑動引擎 (邊界穿透版)
+        const sliders = document.querySelectorAll('.gallery-scroll');
 
-                        //建立景點區塊
-                        let sightsHTML = (day.sights || []).map(sight => `
-                            <div>
-                                <div class="sightImg" style="background-image: url(${sight.image});"></div>
-                                <div class="content">
-                                    <h3>${sight.name}</h3>
-                                    ${createMultiParagraphHTML(sight.description)}
-                                    <div class="feature">
-                                        <h4>Features</h4>
-                                        ${createFeaturesHTML(sight.features)}
-                                    </div>
-                                    ${sight.link ? `<p class="link"><a href="${sight.link}" target="_blank" rel="noopener noreferrer">相關網站</a></p>` : ''}
-                                </div>
-                            </div>
-                        `).join("");
+        sliders.forEach(slider => {
+            // 物理變數
+            let velX = 0;          // 目前速度
+            let momentumID;        // 動畫幀 ID
+            const friction = 0.95; // 摩擦力
 
-                        //建立美食區塊
-                        let foodsHTML = (day.foods || []).map(food => `
-                            <a href="${food.link}" target="_blank">
-                                <div class="foodImg" style="background-image: url(${food.image});"></div>
-                                <div class="content">
-                                    <h4>${food.name}</h4>
-                                    <p>${food.type}</p>
-                                </div>
-                            </a>
-                        `).join("");
+            // --- 核心：物理渲染迴圈 ---
+            function momentumLoop() {
+                // 當速度還足夠大時，繼續滑行
+                if (Math.abs(velX) > 0.1) {
+                    slider.scrollLeft += velX; // 移動捲軸
+                    velX *= friction;          // 速度衰減
 
-                        const foodSectionHTML = foodsHTML
-                            ? `<article class="food"><h2>Food</h2>${foodsHTML}</article>`
-                            : '';
+                    // 邊界檢查：如果滑行時撞到牆壁，就讓速度歸零，避免一直運算
+                    if (slider.scrollLeft <= 0 || slider.scrollLeft >= (slider.scrollWidth - slider.clientWidth)) {
+                        velX = 0;
+                    }
 
-                        //整合整體內容
-                        content += `
-                            <section class="day" id="day${dayNumber}" style="background-image: url(${day.image || ''});">
+                    momentumID = requestAnimationFrame(momentumLoop);
+                } else {
+                    velX = 0;
+                    cancelAnimationFrame(momentumID);
+                }
+            }
 
-                                <div class="dayTitle">
-                                    <span class="date">DAY${dayNumber}</span>
-                                    <h2>${day.title}</h2>
-                                    <div class="description">${descriptionHTML}</div>
-                                </div>
+            // --- 智慧滾輪監聽 ---
+            slider.addEventListener('wheel', (e) => {
+                // 1. 計算相簿的最大捲動範圍
+                // scrollWidth 是總內容寬度，clientWidth 是可視視窗寬度
+                const maxScrollLeft = slider.scrollWidth - slider.clientWidth;
 
-                                <div>
-                                    <article class="info">
-                                        ${pointsSectionHTML}
-                                    </article>
+                // 容許一點點誤差 (1px)，避免瀏覽器計算浮點數導致卡住
+                const tolerance = 1;
 
-                                    <article class="sight">
-                                        <h2>Sights</h2>
-                                        ${sightsHTML}
-                                    </article>
+                // 2. 判斷是否「撞牆」
+                // 往右捲 (deltaY > 0) 且 已經在最右邊
+                const isAtRightEnd = (e.deltaY > 0) && (slider.scrollLeft >= maxScrollLeft - tolerance);
 
-                                    ${foodSectionHTML}
-                                </div>
-                                
-                            </section>
-                        `;
-                    });
+                // 往左捲 (deltaY < 0) 且 已經在最左邊
+                const isAtLeftEnd = (e.deltaY < 0) && (slider.scrollLeft <= tolerance);
 
-                    document.querySelector("main").innerHTML = content;
-                })
-                .catch(error => {
-                    console.error("Error loading JSON:", error);
-                    document.querySelector("main").innerHTML = "<p class='error'>無法載入行程資料，請稍後再試。</p>";
-                });
+                // 3. 邏輯分支
+                if (isAtRightEnd || isAtLeftEnd) {
+                    // A. 如果撞牆了，就「什麼都不做」
+                    // 不呼叫 e.preventDefault()，瀏覽器就會執行預設行為（垂直捲動網頁）
+
+                    // 同時停止慣性，避免相簿還在滑
+                    cancelAnimationFrame(momentumID);
+                    velX = 0;
+                    return;
+                } else {
+                    // B. 如果還沒撞牆，或是反方向捲動 -> 攔截並橫向捲動
+                    e.preventDefault();
+
+                    // 停止舊的滑行
+                    cancelAnimationFrame(momentumID);
+
+                    // 施加力道 (0.8 是靈敏度)
+                    velX += e.deltaY * 0.05;
+
+                    // 啟動慣性
+                    momentumLoop();
+                }
+            }, { passive: false });
+        });
+
+        // --- 4. 燈箱功能 (Click to Zoom) ---
+        const lightboxModal = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-image');
+        const lightboxClose = document.getElementById('lightbox-close');
+
+        // 選取所有原本設計好的圖片 (.img-zoom)
+        const allImages = document.querySelectorAll('.img-zoom');
+
+        allImages.forEach(img => {
+            img.addEventListener('click', (e) => {
+                // 阻止事件冒泡 (避免觸發相簿拖拉等其他事件)
+                e.stopPropagation();
+
+                // 1. 取得被點擊圖片的 src
+                const src = img.getAttribute('src');
+
+                // 2. 設定給燈箱圖片
+                lightboxImg.setAttribute('src', src);
+
+                // 3. 顯示燈箱
+                lightboxModal.classList.add('active');
+            });
+        });
+
+        // 關閉燈箱的函式
+        function closeLightbox() {
+            lightboxModal.classList.remove('active');
+            // 等動畫跑完再清空 src，避免閃爍
+            setTimeout(() => {
+                lightboxImg.setAttribute('src', '');
+            }, 400);
         }
 
-        document.addEventListener("DOMContentLoaded", loadJSON);
-    </script>
+        // 點擊關閉按鈕
+        lightboxClose.addEventListener('click', closeLightbox);
 
+        // 點擊背景也可以關閉
+        lightboxModal.addEventListener('click', (e) => {
+            // 如果點到的是背景 (不是圖片本身)，就關閉
+            if (e.target !== lightboxImg) {
+                closeLightbox();
+            }
+        });
+
+        // 按下 ESC 鍵也可以關閉
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightboxModal.classList.contains('active')) {
+                closeLightbox();
+            }
+        });
+
+    </script>
 </body>
 
 </html>
